@@ -2,7 +2,6 @@
 %\usepackage{hangul} %<===> 유니코드/UTF-8 
 \usepackage[hangul]{kotex} %<===> EUC-KR
 
-
 \usepackage{ifxetex} % 부득이하게 pdflatex을 사용해도 문제가 없도록 함
 
 \ifxetex
@@ -15,6 +14,33 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
 \nonfrenchspacing
 \else
 \fi
+
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+
 
 
 \citation
@@ -262,9 +288,12 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
 \theoremstyle{blacknumbox}
 \newtheorem{vocabulary}{Vocabulary}[chapter]
 \newtheorem{definitionT}{Definition}[section]
+\newtheorem{codeT}{Code}[section]
 \newtheorem{corollaryT}[dummy]{Corollary}
 \theoremstyle{ocrenum}
 \newtheorem{proposition}[dummy]{Proposition}
+
+
 
 %----------------------------------------------------------------------------------------
 %	DEFINITION OF COLORED BOXES
@@ -339,7 +368,7 @@ innerbottommargin=5pt]{cBox}
 \newenvironment{exercise}{\begin{eBox}\begin{exerciseT}}{\hfill{\color{ocre}\tiny\ensuremath{\blacksquare}}\end{exerciseT}\end{eBox}}				  
 \newenvironment{definition}{\begin{dBox}\begin{definitionT}}{\end{definitionT}\end{dBox}}	
 \newenvironment{example}{\begin{exampleT}}{\hfill{\tiny\ensuremath{\blacksquare}}\end{exampleT}}		
-\newenvironment{corollary}{\begin{cBox}\begin{corollaryT}}{\end{corollaryT}\end{cBox}}	
+\newenvironment{code}{\begin{eBox}\begin{codeT}}{\hfill{\color{ocre}\tiny\ensuremath{\blacksquare}}\end{codeT}\end{eBox}}				  
 
 %----------------------------------------------------------------------------------------
 %	REMARK ENVIRONMENT

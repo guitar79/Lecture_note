@@ -1,0 +1,74 @@
+%----------------------------------------------------------------------------------------
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+
+\chapter{파이썬 라이브러리}
+
+\section{Matplotlib}\index{Theorems}
+
+https://matplotlib.org/
+
+Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Matplotlib can be used in Python scripts, the Python and IPython shell, the jupyter notebook, web application servers, and four graphical user interface toolkits.
+
+
+
+\subsection{그래프 그리기}\index{Theorems!Several Equations}
+This is a theorem consisting of several equations.
+
+\begin{theorem}[Name of the theorem]
+	In $E=\mathbb{R}^n$ all norms are equivalent. It has the properties:
+	\begin{align}
+		& \big| ||\mathbf{x}|| - ||\mathbf{y}|| \big|\leq || \mathbf{x}- \mathbf{y}||\\
+		&  ||\sum_{i=1}^n\mathbf{x}_i||\leq \sum_{i=1}^n||\mathbf{x}_i||\quad\text{where $n$ is a finite integer}
+	\end{align}
+\end{theorem}
+
+
+\section{matplotlib basemap toolkit}\index{basemap}
+
+The matplotlib basemap toolkit is a library for plotting 2D data on maps in Python. It is similar in functionality to the matlab mapping toolbox, the IDL mapping facilities, GrADS, or the Generic Mapping Tools. PyNGL and CDAT are other libraries that provide similar capabilities in Python.
+
+Basemap does not do any plotting on it’s own, but provides the facilities to transform coordinates to one of 25 different map projections (using the PROJ.4 C library). Matplotlib is then used to plot contours, images, vectors, lines or points in the transformed coordinates. Shoreline, river and political boundary datasets (from Generic Mapping Tools) are provided, along with methods for plotting them. The GEOS library is used internally to clip the coastline and polticial boundary features to the desired map projection region.
+
+Basemap is geared toward the needs of earth scientists, particularly oceanographers and meteorologists. Jeff Whitaker originally wrote Basemap to help in his research (climate and weather forecasting), since at the time CDAT was the only other tool in python for plotting data on map projections. Over the years, the capabilities of Basemap have evolved as scientists in other disciplines (such as biology, geology and geophysics) requested and contributed new features.
+
+
+\subsection{지도 그리기}\index{지도 그리기}
+
+다음 코드를 입력하여 지도를 그려보자.
+
+
+\begin{code}[지도 그리기]
+%	\begin{align}
+	\begin{lstlisting}
+from mpl_toolkits.basemap import Basemap
+import numpy as np
+import matplotlib.pyplot as plt
+# create new figure, axes instances.
+fig=plt.figure()
+ax=fig.add_axes([0.1,0.1,0.8,0.8])
+# setup mercator map projection.
+
+m = Basemap(llcrnrlon=127.,llcrnrlat=34.,urcrnrlon=135.,urcrnrlat=44.01,\
+rsphere=(6378137.00,6356752.3142),\
+resolution='l',projection='merc',\
+lat_0=40.,lon_0=-20.,lat_ts=20.)
+
+# nylat, nylon are lat/lon of New York
+nylat = 40.78; nylon = -73.98
+# lonlat, lonlon are lat/lon of London.
+lonlat = 51.53; lonlon = 0.08
+# draw great circle route between NY and London
+#m.drawgreatcircle(nylon,nylat,lonlon,lonlat,linewidth=2,color='b')
+m.drawcoastlines()
+m.drawcountries()
+m.fillcontinents()
+# draw parallels
+m.drawparallels(np.arange(10,90,2),labels=[1,1,0,1])
+# draw meridians
+m.drawmeridians(np.arange(-180,180,2),labels=[1,1,0,1])
+#ax.set_title('Great Circle from New York to London')
+plt.show()
+		\end{lstlisting}
+%		\end{align}
+\end{code}
