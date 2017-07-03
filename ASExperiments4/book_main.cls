@@ -21,6 +21,7 @@
 %\floatstyle{plaintop}
 %\restylefloat{table}
 \usepackage[tableposition=top]{caption}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% caption format %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

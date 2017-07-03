@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 # create new figure, axes instances.
 fig=plt.figure()
 ax=fig.add_axes([0.1,0.1,0.8,0.8])
+#axisbgc = ax.get_axis_bgcolor()
 # setup mercator map projection.
-
 m = Basemap(llcrnrlon=127.,llcrnrlat=34.,urcrnrlon=135.,urcrnrlat=44.01,\
             rsphere=(6378137.00,6356752.3142),\
             resolution='l',projection='merc',\

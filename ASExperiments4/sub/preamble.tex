@@ -1,20 +1,35 @@
-%\documentclass{book_main}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The Legrand Orange Book
+% Structural Definitions File
+% Version 2.0 (9/2/15)
+%
+% Original author:
+% Mathias Legrand (legrand.mathias@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+% 
+% This file has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{book_main}
 %\usepackage{hangul} %<===> 유니코드/UTF-8 
 \usepackage[hangul]{kotex} %<===> EUC-KR
-
 \usepackage{ifxetex} % 부득이하게 pdflatex을 사용해도 문제가 없도록 함
 
 \ifxetex
 %한글 사용 옵션
 \RequirePackage{xetexko}
 \setmainfont[Ligatures=TeX]{Batang}
-\setmainhangulfont[BoldFont=*,BoldFeatures=FakeBold,%
+	\setmainhangulfont[BoldFont=*,BoldFeatures=FakeBold,%
 ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
 \disablecjksymbolspacing
 \nonfrenchspacing
 \else
 \fi
-
 
 \usepackage{listings}
 \usepackage{color}
@@ -40,28 +55,8 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
   tabsize=3
 }
 
-
-
-
 \citation
 \bibdata
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% The Legrand Orange Book
-% Structural Definitions File
-% Version 2.0 (9/2/15)
-%
-% Original author:
-% Mathias Legrand (legrand.mathias@gmail.com) with modifications by:
-% Vel (vel@latextemplates.com)
-% 
-% This file has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
 %	VARIOUS REQUIRED PACKAGES AND CONFIGURATIONS
@@ -388,7 +383,7 @@ innerbottommargin=5pt]{cBox}
 
 \makeatletter
 \renewcommand{\@seccntformat}[1]{\llap{\textcolor{ocre}{\csname the#1\endcsname}\hspace{1em}}}                    
-\renewcommand{\section}{\@startsection{section}{1}{\z@}
+\renewcommand{\section}{\@startsection {section}{1}{\z@}
 {-4ex \@plus -1ex \@minus -.4ex}
 {1ex \@plus.2ex }
 {\normalfont\large\sffamily\bfseries}}
@@ -404,6 +399,23 @@ innerbottommargin=5pt]{cBox}
 {-2ex \@plus-.2ex \@minus .2ex}
 {.1ex}
 {\normalfont\small\sffamily\bfseries}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Chapter/section title format %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ``각 절 제목의 글자는 section (21pt, bold face), subsection (16pt, bold face), subsubsection (14pt, normal style), paragraph (12pt, Italic)로 설정한다.''
+% ``각 절의 첫 문단은 들여쓰기를 하지 않지만, 두 번째 문단 이후부터는 들여쓰기 (16pt)를 한다. 각 절의 제목에는 글씨 크기에 비례하는 상하 여백을 준다.''
+% 졸업논문 hwp 양식에서 따옴
+%\titleformat{\section}[hang]
+%{\normalfont\fontsize{21}{21}\selectfont\bfseries}{\Roman{section}.}{1em}{}
+%%\titleformat{\subsection}[hang]
+%%{\normalfont\fontsize{16}{16}\selectfont\bfseries}{\arabic{section}.\arabic{subsection}}{1em}{}
+%%\titleformat{\subsubsection}[hang]
+%%{\normalfont\fontsize{14}{14}\selectfont}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}{1em}{}
+%%\titleformat{\paragraph}[hang]
+%%{\normalfont\fontsize{12}{12}\selectfont\it}{}{1em}{}
+
 
 %----------------------------------------------------------------------------------------
 %	PART HEADINGS
