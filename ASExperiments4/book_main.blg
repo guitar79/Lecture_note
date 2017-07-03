@@ -3,17 +3,12 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: book_main.aux
 A level-1 auxiliary file: sub/title.aux
 A level-1 auxiliary file: sub/part01.aux
-A level-1 auxiliary file: sub/python01.aux
-A level-1 auxiliary file: sub/python02.aux
-A level-1 auxiliary file: sub/part03.aux
-A level-1 auxiliary file: sub/part00.aux
-A level-1 auxiliary file: sub/footer.aux
 I found no \citation commands---while reading file book_main.aux
 I found no \bibdata command---while reading file book_main.aux
 I found no \bibstyle command---while reading file book_main.aux
 You've used 0 entries,
             0 wiz_defined-function locations,
-            90 strings with 593 characters,
+            85 strings with 519 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0

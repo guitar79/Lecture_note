@@ -266,7 +266,7 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% caption format %%%%%
+%%%  format %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\renewcommand{\figurename}{Fig.}
 \captionsetup[figure]{%
