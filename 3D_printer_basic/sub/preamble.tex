@@ -1,0 +1,140 @@
+% This beamer template was adapted from "beamerthemeUppsala version 2008/05/15"
+% for GSHS students, by Chinook Mok and GSHS TeX Society(http://latex.gs.hs.kr).
+\documentclass[11pt]{beamer}
+\hypersetup{pdfencoding=auto}
+
+\usetheme{Berkeley}
+
+\usepackage{xcolor}
+\usepackage{amssymb,amsmath,graphicx}
+\usepackage[hangul]{kotex}
+\usepackage{multimedia}
+\usepackage{setspace}
+\usepackage{multicol}
+%\usepackage{verbatim} %use 
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[margin=10pt,font=small,labelfont=bf]{subcaption}
+\usepackage{lipsum}
+\graphicspath{{images/}}
+%% Footnote Setting %%
+
+\let\oldfootnote\footnote
+\renewcommand\footnote[1][]{\oldfootnote[frame,#1]}
+
+\makeatletter % Makes maximum footnote counter of fnsymbol from 9 to 12.
+\def\@fnsymbol#1{\ensuremath{\ifcase#1\or *\or \dagger\or \ddagger\or
+		\mathsection\or \mathparagraph\or \|\or **\or \dagger\dagger
+		\or \ddagger\ddagger\or \mathsection\mathsection
+		\or \mathparagraph\mathparagraph \or \|\|\else\@ctrerr\fi}}
+\makeatother
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+%% Color Setting %%
+\definecolor{Grey}{rgb}{0.6,0.6,0.6}
+\definecolor{GSHSred}{RGB}{105,0,0}
+\definecolor{GSHSblue}{RGB}{0,0,105}
+\definecolor{GSHSRED}{RGB}{80,0,0}
+\definecolor{GSHSBLUE}{RGB}{0,0,80}
+\definecolor{gshsred}{RGB}{240,210,210}
+\definecolor{gshsblue}{RGB}{210,210,240}
+\setbeamercolor{title}{bg=white,fg=GSHSblue}
+\setbeamercolor{author}{fg=GSHSblue}
+\setbeamercolor{institute}{fg=GSHSblue}
+\setbeamercolor{date}{fg=GSHSblue}
+\setbeamercolor{logo}{bg=GSHSblue}
+\setbeamercolor{sidebar}{bg=GSHSblue}
+\setbeamercolor{frametitle}{bg=white,fg=GSHSblue}
+\setbeamercolor{section in sidebar}{use=sidebar,bg=white,fg=sidebar.bg}
+\setbeamercolor{subsection in sidebar}{parent=section in sidebar}
+\setbeamercolor{subsubsection in sidebar}{parent=subsection in sidebar}
+\setbeamercolor{item}{fg=GSHSblue}
+\setbeamercolor{block title}{bg=GSHSBLUE,fg=white}
+\setbeamercolor{block body}{bg=gshsblue,fg=black}
+
+%% Frametitle Setting %%
+\setbeamerfont{frametitle}{series=\bfseries}
+\setbeamertemplate{frametitle}
+{ \vspace*{-10mm}
+  \leavevmode
+  \hspace*{3pt}
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1ex,dp=1ex]{frametitle}
+    \hspace*{7pt}\underline{\makebox[0.6\paperwidth][l]{
+    \Large{\insertframetitle}}}
+  \end{beamercolorbox}
+}
+
+%% Title Page Setting %%
+\setbeamerfont{title}{series=\bfseries}
+\setbeamertemplate{title page}{
+  %% Background Logo
+  \begin{picture}(0,0)%
+    \setlength{\unitlength}{1cm}% default
+    \protect\put(1.3,0.8){%
+    \begin{picture}(6,6)(4,10)%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      %\includegraphics[width=0.4\paperwidth]{New_Profile_Picture.pdf}%
+      \includegraphics[width=0.7\paperwidth]{3d_printing_icon_3d_printer_3}%
+    \end{picture}%
+    }%
+  \end{picture}%
+  \vfill
+  \vspace*{10mm}
+  \raggedleft
+  %% Title
+  \usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle\par
+  \vskip 2mm
+  %% Subtitle
+  \ifx\insertsubtitle\@empty
+  \else\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle
+  \fi
+
+  \vskip 3mm
+  %% Horizontal line
+  \usebeamercolor[fg]{title}\hrule height 2pt\hfill
+  \vskip 20mm
+  %% Author
+  \usebeamercolor[fg]{author}\usebeamerfont{author}\insertauthor
+  \vskip 0.2cm
+  %% Institute
+  \usebeamercolor[fg]{institute}\usebeamerfont{institute}\insertinstitute
+  \vskip 0.5cm
+  %% Date
+  \usebeamercolor[fg]{date}\usebeamerfont{date}\insertdate
+  \vfill
+}
+
+%% itemize bullet setting %%
+\setbeamertemplate{itemize items}[ball]
+
+%% block setting %%
+\setbeamertemplate{blocks}[rounded][shadow=true]
+
+%% caption setting %%
+\setbeamertemplate{caption}[numbered]
+
+%% Title, Author, Institute, Date %%
+\title[3D 프린터 기초]{3D 프린터 기초}
+\subtitle[]{}
+\author[]{박기현}
+\institute[GSHS]{경기과학고등학교}
+\date[]{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% insert your own profile picture
+%\logo{\includegraphics[width=15mm]{stackoverflow.pdf}}
+%\logo{\includegraphics[width=8mm]{Profile_Picture.pdf}}
+
+%% Main %%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% caption format %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\renewcommand{\figurename}{Fig.}
+\captionsetup[figure]{%
+	font=scriptsize,labelsep=period,singlelinecheck=off,aboveskip=5pt,% 
+	belowskip=0pt, margin=0pt,subrefformat=parens%
+}
+\captionsetup[table]{%
+	font=scriptsize,labelsep=period,singlelinecheck=off,aboveskip=0pt,% 
+	belowskip=5pt, margin=0pt%
+}
