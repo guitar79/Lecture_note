@@ -1,0 +1,67 @@
+%----------------------------------------------------------------------------------------
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+
+\chapter{}
+
+
+
+\section{}\index{}
+
+
+
+
+
+\section{2}\index{}
+
+To write a formula in a cell that refers to another cell, begin the entry with an equals sign “=”, then get values from other cells by clicking on them, combining them using standard math symbols to add them, etc. There are built-in functions to calculate many things in spreadsheets, and graphing capabilities, so you can see visually how your numbers are evolving.
+
+One really useful but not obvious trick to coding spreadsheets is relative versus absolute addressing of cells, when you’re copying a formula from one cell to another. If the formula refers to a cell, say A1 (the cell in the upper left corner of the sheet), and you copy the formula down to the cell below its original location, the copied formula will refer to cell A2, the one below the original referent cell. If you copied it one to the right, you would get cell B1. This behavior is useful in some situations, but in others you might want the new formula to also refer to A1, wherever you copy it to. The way to make this happen is to insert “\$” characters before the A or the 1 index of the reference cell. If it is referenced absolutely, in this way, the indices don’t change when you copy and paste them.
+
+Another useful technique is to use a few rows of cells near the top of the sheet to hold constants that you will be using in the calculations, so that you can change a value of one of the constants, and the whole calculation will re-do itself. For a time-stepping calculation, for example, if you have a cell up top labeled “time step (years)”, and you put your number next to that label, you can change the time step later by changing that value.
+
+Finally, pay close attention to units, and label them clearly, to avoid endless debugging frustration. I often use two cells for each labeled constant or column heading, one with the variable name, and another just below it for the units.
+
+
+
+\section{3}\index{basemap}
+
+The Python programming language is a very popular, versatile, and (with its many extensions) very powerful tool. An interpreter that runs scripts in the programming language Python is freely distributed, and it may already be installed on your computer. There are many excellent free on-line tutorials on Python, including https://docs.python.org/ and Coursera classes beginning with https://www.coursera.org/learn/python. This class assumes that you have access to a tutorial or documentation, and will demonstrate how you can use the powers of Python to simulate things that happen in the natural world. The only way to learn a programming language is by doing something with it; just reading about it, it doesn't sink in in the same way. This class provides an opportunity for someone new to coding to get started, by providing detailed instructions for building a series of simple models applicable to the climate sciences. I've tried to write the instructions as if they were to go with some kind of kit, like to build a toy sailboat. The instructions are meant to make it as clear and easy as possible to succeed. By doing so, you will learn a lot about climate and Python both!
+
+Using Python for numerical computation requires extensions which you will probably have to install. First is a numerical module called numpy (pronounced num-pie), and second, you'll also need a plotting module called matplotlib. On my Macintosh, I succeeded in using a package called anaconda (https://www.continuum.io/downloads), by installing their minimum package they call miniconda, and using that to install numpy and matplotlib. At the beginnings of your python scripts you will need to start these up using lines
+
+
+\begin{code}[]
+%	\begin{align}
+	\begin{lstlisting}
+
+import numpy
+import matplotlib
+		\end{lstlisting}
+%		\end{align}
+\end{code}
+
+
+
+where you should replace model_name.py with whatever the name of your script file is.
+
+Fortran
+
+There are various free and commercial Fortran compilers available. The automatic code checking system in this class will use the GNU fortran called gfortran, version 4.4, to compile and run your submissions. This package is available for free on linux machines and MacOS. The global climate models tend to be compiled using commercial compilers, such as from Intel or the Portland Group.
+
+Editing Files
+
+To create and edit Python scripts or Fortran source files, you will need to find or install an editor which can write plain text files. Word processors such as Word or TextEdit may be able to save clean text files, if you specifically look for that. A way to check is to type “more <filename>” in a terminal window, where you substitute the name of the file you want to inspect for <filename>, which will give you a screen-full of the file at a time. If it looks like plain letters of python text, you’re good. Examples of formats which won’t work include files with the suffix .doc, .docx, .rtf, and .pdf.
+
+Alternatively, you may find some integrated programming environment for your computer that shows you the editable python source code in one part of a window, and output in another part.
+
+Getting your code to work
+
+Create your first script by copying pieces from some example script. When you first try to run it, it probably will have some syntax errors that will prevent the Python interpreter from working. The interpreter will tell you what line it decided it had to give up, which is usually the line where the error is, but not always. It can be a problem at an earlier line, like a mismatched parenthesis in a line above. Sometimes the only way to find where a problem line is, is to temporarily delete or comment out whole blocks of a code, until it starts running. Google is your friend here; you can copy the entire error message into the Google search box, add the word python or anything else relevant to what you’re trying to do, and probably you will find posts where the same question has been asked and answered. In particular, a web site called stackoverflow.com is a treasure chest of helpful information.
+
+Once the code gets correct enough to run, it will probably give wrong answers that will require debugging. The simplest way to probe the numbers that the code is creating is to put in temporary print statements, printing out values of variables. Another fancier option is to use a debugger, which allows you to stop the code at some line number, step forward a bit at a time, and ask it interactively what all the variable values are, and even change them on the fly.
+
+A general strategy is to find or create the simplest possible script that works correctly, then improve it or add stuff to it in stages. A working spreadsheet will make debugging much easier by providing lots of numbers to compare to. Also, getting the same answers in two formats (spreadsheet and code) gives a lot of reassurance that there aren't random typo-type bugs in either format. Simplify a strangely-behaving code until it gets so simple that it works, then add the complexity back in, one step at a time, until you get that working also. You can use comment marks (#) to "comment out" lines of code temporarily.
+
+You will be uploading your codes for automatic checking, and also for peer review. The automatic checking needs to have your code set up particular ways, to take some numbers as input, print out other numbers as output, with no extra text or on-screen plotting (matplotlib). The code checker will run your code through some paces and give what we hope will be helpful feedback on your calculations. The peer review will be to assess your coding "style", whether you have useful comments in the code, the variable names make sense, the code is logically structured: things like that. After you submit your code, you will be asked to evaluate the codes of others.
+
