@@ -1,8 +1,8 @@
-\section{지구 온난화 모델링}
+\chapter{지구 온난화 모델링}
 
-\subsection{Time-Stepping Naked Planet Model}\index{Time-Stepping Naked Planet Model}
+\section{Time-Stepping Naked Planet Model}\index{Time-Stepping Naked Planet Model}
 
-\subsubsection{How the Model Works}\index{}
+\subsection{How the Model Works}\index{}
 
 So the naked planet model is an energy balance model. We have energy coming in at some rate, and energy flowing out at a rate, which depends on the temperature of the planet. So the temperature and the heat content are related to each other by means of the heat capacity. Which is how many jewels it takes to raise the temperature of one square meter of the surface by one degree kelvin. And that number depends on the water depth, because the water is the sort of heat sink. So if we change this value to smaller value, you'll see the heat capacity change. Because I'm calculating the heat capacity as a function of the water depth. 
 0:45
@@ -13,7 +13,7 @@ The way this works is that you want to keep track of the heat content of the pla
 That's better but, it's still looking a little jittery there. So, right, right, ten years and oh, you can't see the time scale is changing there so. If we change the timestep, we get the same number of time steps. But, each one goes longer so the number of years is longer. So now if we look at the Python script for this, we see it's very short. We define parameters up top. In both cases, it's real important to keep close track of the units. So I just have comments here for units. In the spreadsheet I have actual cells that I use to put units in just to keep it. It's much easier to debug if you can kind of keep it straight. And then, here is a loop that goes through the timesteps. And here are some plotting lines that use this Python library matplotlib to make the plot that we see. 
 
 
-\subsubsection{방정식}\index{}
+\subsection{방정식}\index{}
 
 %The background for this material can be found in Sections 2 and 3 of Part I of this class. 
 %Short version: Joules are units of energy; Watts are energy flow (J/s). The temperature of a planet is determined by balancing energy fluxes into and out of a planet. 
@@ -76,8 +76,6 @@ sigma = 5.67E-8          # W/m2 K4
 
 
 
-링}
-
 \begin{enumerate}
 	\item Construct a time column, with the first time point being 0 and the rest of them going up by an increment, the time step, say 5 years. Make the time step a labeled number in a cell so you can easily change it later. 
 	\item (The second time step value) = (the first value) + (the time step), and the third relative to the second and so on. If the amount of time per time step is in cell A1 for example, the formula to calculate step 2 from step 1 should point to A1 in an absolute way, using {\$A\$1}, so when you copy the formula downwards it keeps pointing to {\$A\$1} (as opposed to the previous time step pointer, without dollar signs, which shifts when you copy the cell downward. This saves retyping in formulas all the way down.
@@ -104,7 +102,7 @@ sigma = 5.67E-8          # W/m2 K4
 
 \newpage
 
-\subsubsection{Python 이용}\index{}
+\subsection{Python 이용}\index{}
 \begin{enumerate}
 	\item You’ll need to have numpy and matplotlib modules installed in your python programming environment, and in the first lines of your script import both of them.
 
@@ -137,7 +135,7 @@ My script for this model is 23 lines long.
 \end{enumerate}
 
 
-\subsubsection{Python 이용 해설}\index{}
+\subsection{Python 이용 해설}\index{}
 
 Create a version of your python code which takes an argument from stdin for the number of time steps, using
 
@@ -234,7 +232,7 @@ matplotlib.pyplot.show()
 	%		\end{align}
 \end{code}
 
-\subsubsection{Quiz}\index{}
+\subsection{Quiz}\index{}
 Adapt the code to simulate a dry planet, like Mars. The effective heat capacity of a solid surface is much smaller than that of an ocean, because heat diffuses very slowly in solids compared to fluid mixing in liquids. On time scales of a few years, heat penetrates a meter or a few meters into a soil column. Approximate a solid surface by changing the depth of the water in your model to 1 meter.
 
 The trick here is that you will have to take smaller time steps to keep the numerical method from blowing up. A good way to see what's going on is to decrease the ocean depth in stages. Start with 2000 meters, then 1000, then 100, then 10, then 1. Each time you'll have to make the time step shorter, and if it's too long you'll see the numerics to crazy.
@@ -256,9 +254,9 @@ What is the outgoing heat flux, in Watts/m2, after 2000 years? (Your model shoul
 
 
 
-\subsection{Iterative Runaway Ice-Albedo Feedback Model}\index{Iterative Runaway Ice-Albedo Feedback Model}
+\section{Iterative Runaway Ice-Albedo Feedback Model}\index{Iterative Runaway Ice-Albedo Feedback Model}
 
-\subsubsection{How the Model Works}\index{}
+\subsection{How the Model Works}\index{}
 
 The second model you're going to be working on is an iterative model of the Ice-Albedo Feedback and how it affects the temperature of the Earth. So instead of stepping through the time in this model, we're going to be making successive guesses of what the right answers are and the guesses will converge and get closer. You get the same answer every time you guess as you get towards the end, so it's a fundamentally different kind of calculation. 
 0:30
@@ -281,7 +279,7 @@ WebVTT
 Transcript (English)
 
 
-\subsubsection{T와 Ice ltitude and Albedo 파라메타}\index{}
+\subsection{T와 Ice ltitude and Albedo 파라메타}\index{}
 
 The first part of this calculation is a pair of regressions to calculate the slope and intercept for two linear functions: one is the latitude to which there will be snow and ice on the surface (lower latitudes, closer to the equator, when it’s colder), and the second is the overall albedo from ice that you will get at that temperature. You are looking for functions Ice latitude = m1 * T + b1 and albedo = m2 * T + b2. The regression is probably easier to do in a spreadsheet, either using a built-in least-squares function, or by setting up a trial function with values of m and b in cells that you tweak by hand, and compare the resulting line in a plot with the plotted values of the data.
 
@@ -297,7 +295,7 @@ Mean Planetary Temperature	Ice Latitude	Planetary Albedo
 
 The functions should be in slope / intercept form, as in ice_latitude = m1 * T + b1 and albedo = m2 * T + b2.
 
-\subsubsection{스프레드시트 이용}\index{}
+\subsection{스프레드시트 이용}\index{}
 It is possible for a spreadsheet to do all the calculations that the Python version of this exercise will do, but it's starting to get cumbersome. You will want to do about 40 values of L, and each value of L will require 100 iterations or so before we can be sure that the process has converged. In a spreadsheet, typically, all of the iterations would be saved in separate cells. (It is also possible to use built-in iteration functions in some spreadsheets, which might avoid this problem). A sensible solution might be to restrict the spreadsheet to working on a single value of L, which will be useful for checking and debugging your Python script, and then leave the power-crunching of lots of different values of L to the script.
 
 Set a value of L as a labelled number in a cell (with units!). You'll also need an initial guess for the albedo, and maybe values for epsilon and sigma would be useful. Also make cells with the slope and intercept values for your parameterized fits to the albedo and ice-latitude functions of temperature you derived in the first part.
@@ -310,7 +308,7 @@ Solve for the first temperature guess assuming the initial guess for the albedo.
 
 Make a plot of temperature versus iteration number to see how many iterations it takes before it converges. A value of L to try is 1250 W/m2, with an initial guess for the albedo of 0.15.
 
-\subsubsection{Python 이용}\index{}
+\subsection{Python 이용}\index{}
 
 As in the last problem, begin by importing library packages that we'll need, for messing with lists (arrays), and for plotting.
 
@@ -385,7 +383,7 @@ will create a plot of your results.
 My script required about 60 lines of python code. New python functions you may find useful include min() and max().
 
 
-\subsubsection{Quiz}\index{}
+\subsection{Quiz}\index{}
 
 
 On the downward sweep through L (getting colder each time), What is the maximum value of the solar constant, L, in units W/m2, for which the planet freezes all the way to the equator? (Make sure you have enough iterations to see that your temperature and albedo have reached equilibrium). The tolerance in the grader is a range of 20 W/m2.
@@ -395,14 +393,14 @@ Now on the upward sweep through the range in L, at some critical L value (in Wat
 
 
 
-\subsection{A Simple 1-D Ice Sheet Flow Model}\index{A Simple 1-D Ice Sheet Flow Model}
+\section{A Simple 1-D Ice Sheet Flow Model}\index{A Simple 1-D Ice Sheet Flow Model}
 
 Ice Sheet Dynamics
 
 Ice flows like extra-thick molasses, downhill. The shape of the ice sheet (altitude versus distance across) is determined by the relationship between ice surface slope and the flow rate of the ice.
 
 
-\subsubsection{How the Model Works}\index{}
+\subsection{How the Model Works}\index{}
 The Ice Sheet Model is formulated in one dimension, a horizontal dimension and so we have snow that's accumulating all the way across this dimension. And as the ice gets thicker and thicker you get a slope at the ice surface which drives a pressure gradient which drives flow in both directions. The flow is always going sort of down hill. The flow is given by the surface slope, the change in elevation over the change in x of the slope of the surface there, times some constant, which will be given to you. So we're going to solve this problem numerically by breaking it up into pieces, and each of those pieces, we're going to call a grid cell. And so there will be some number of grid cells across the domain, and each grid cell has an elevation which is defined in the center of the cell and so 
 1:11
 the slope in the elevation would be the difference in x divided by the difference in x so the slope would be sort of between two adjacent points like that. And then there are flows defined in the domain as well going between one grid cell and another. So the flows are actually defined on the cell faces, whereas the elevations are in the cell centers. Another crucial part of this problem is the boundary condition. We have to keep it zero at the edges where the ice is flowing into the water. We're not going to let it build up higher than that. And that sort of controls the whole domain of the ice sheet. And the way that boundary condition manifests itself in a grid like this is to have some extra grid points, some sort of ghost 
@@ -431,7 +429,7 @@ In general, a factor of two change in the size, factor of two change in the time
 4:24
 Taking longer for the action to happen here, because we're taking shorter time steps. 
 
-\subsubsection{Model Formulation}\index{}
+\subsection{Model Formulation}\index{}
 Ice flows, like any other fluid, only very slowly, due to its high viscosity. The force driving the flow is differences in pressure in the interior of the ice, which arise from differences in the elevation of the ice surface. If you make a pile of ice, it's like a pile of molasses, in that it will flow outward and flatten itself out.
 
 The model is formulated in one dimension, on a horizontal grid. Start with 10 grid cells. Let them span a horizontal distance of 1000 km, or 10^6 meters. Each grid cell will have an elevation of ice. Flow between adjacent cells depends on the difference between their elevations. Snow falls equally on all grid cells. Also, vitally important to this type of problem, is a boundary condition. We'll assume that the ice sheet is confined to a landmass like Greenland or Antarctica, so that the thickness of the ice at the boundaries has to be zero. Ice flows into the ocean and disappears, both in reality and in our model.
@@ -472,7 +470,7 @@ Then update the elevations by adding ( snowFall + flow[ix-1] - flow[ix] ) * time
 
 Repeat the cycle, calculating flows, then taking time steps in the elevation. Watch the ice sheet grow in, through time, to its equilibrium shape, which will be determined by the math in the equations described above
 
-\subsubsection{스프레드 시트 이용}\index{}
+\subsection{스프레드 시트 이용}\index{}
 
 I always find it useful to take some space at the top of a spreadsheet for model parameters, like the time step etc. I use three cells for each parameter, one for the name, one for the units (years, in this case), and a third for the numeric value.
 
@@ -489,7 +487,7 @@ Use relative and absolute addressing as you did with the flow formula so that yo
 Make a plot of the elevation as a function of distance at some time slice, to see the shape of the ice sheet as it evolves toward its steady state.
 
 
-\subsubsection{Python 이용}\index{}
+\subsection{Python 이용}\index{}
 
 The advantage of a scripting tool like python for this calculation is that it's no trouble at all to do a longer calculation -- we don't have to save all the intermediate values of all the variables.
 
@@ -529,7 +527,7 @@ fig.canvas.draw()
 These commands will update the plot to show the latest elevations, and then keeps moving.
 
 
-\subsubsection{Quiz}\index{}
+\subsection{Quiz}\index{}
 Set up the code to run for 25,000 years of simulated time. Does the code reach equilibrium by the end of this time?  
 yes / no
 
@@ -552,12 +550,12 @@ If you double the snowfall rate, the equilibrium elevation of the ice sheet
  - less than doubles
  - stays the same
 
-\subsection{A 2-D Gridded Shallow Water Model}\index{A 2-D Gridded Shallow Water Model}
+\section{A 2-D Gridded Shallow Water Model}\index{A 2-D Gridded Shallow Water Model}
 Pressure, Rotation, and Fluid Flow
 
 Planetary rotation and fluid flow were explained in Part I of this class, Unit 6, on Weather and Climate.
 
-\subsubsection{How the Model Works}\index{}
+\subsection{How the Model Works}\index{}
 0:05
 The shallow-water equations are not necessarily called that because water has to be shallow, but because the flows are the same at all water depths. So we're doing the calculation of water flow that is independent of water depth where you don't have different flows. You have to maintain different grid cells in the vertical, you just need a lattice of grid cells in two dimensions in the horizontal. So this is what that grid looks like, so this is latitude and longitude. And each grid cell has an elevation of water level height which is defined, just like in the ice sheet model, it's defined in the cell centers. And then there are flows between the cells, which are like in the ice sheet model designed on the cell edges. So the grid could look like h00, h01, h02, and then v velocities, which are the north south velocities defined on the south faces there are now four of them as opposed to the three elevations. Just like in the ice sheet model, you have to worry about the boundaries. Now the north and south boundaries, we are going to say that there is a wall there so. These flows are both going to all equal zero across that wall and that wall. In the horizontal dimension there will be two options you're going to build into your code. One is to put walls there which means that you'll be setting these velocities, these u values to be zero. And the other is to have it wrap around in which case, you have stuff can flow out one side and it would just flow in the other side. So the way that you calculate the evolution of the elevation of the surface is by tracking the flows coming and going out the boundaries. So dU/dX, that's saying you have, more flowing in this side than that side. That would give you a value du dx that would actually be decreasing as you go this way. And so the negative of that multiplied by the aspect ratio. Tells you how much of this water is going to be piling up and making this box get deeper. 
 2:31
@@ -569,7 +567,7 @@ Here's another trick that the shallow water circulation code can do. In this cas
 5:35
 half of this domain and in the upper half the winds are blowing toward the east. And with the rotation what that does is it causes water to pile up in the center of this gyre. And once this water piles up, that pressure gradient actually starts to drive the flow around the gyre. So it's going the way the wind would tell it to go, but it's going there because the pressure gradient in the water is telling it to, not because the wind is telling it to. These arrows arise as this pressure difference in the water arises. And then this is like a giant Rossby wave, it's drifting to the west. And what that does in this case where you have walls at the east and west boundaries is it tends to lead to an intense flow on the Westward boundary. This is called Westward intensification and it's responsible for the Gulf stream and the Kuroshio and other Western boundary currents around the world that are very intense for this dynamical reason. 
 
-\subsubsection{Model Description}\index{Model Description}
+\subsection{Model Description}\index{Model Description}
 
 \begin{lstlisting}%[caption={code for map}, label=lst:Pythoncode]
 
@@ -782,21 +780,21 @@ updateFrame()
 
 \end{lstlisting}
 
-\subsubsection{....}\index{}
-\subsubsection{....}\index{}
-\subsubsection{....}\index{}
-\subsubsection{....}\index{}
-\subsubsection{....}\index{}
+\subsection{....}\index{}
+\subsection{....}\index{}
+\subsection{....}\index{}
+\subsection{....}\index{}
+\subsection{....}\index{}
 
 
-\subsubsection{....}\index{}
+\subsection{....}\index{}
 
 
 \begin{lstlisting}%[caption={code for map}, label=lst:Pythoncode]
 
 \end{lstlisting}
 
-\subsubsection{....}\index{}
-\subsubsection{....}\index{}
-\subsubsection{....}\index{}
-\subsubsection{....}\index{}
+\subsection{....}\index{}
+\subsection{....}\index{}
+\subsection{....}\index{}
+\subsection{....}\index{}

@@ -159,15 +159,15 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
 {}
 
 % Chapter text styling
-\titlecontents{chapter}[0em] % Indentation
+\titlecontents{chapter}[3cm] % Indentation
 {\addvspace{12pt}\large\sffamily\bfseries} % Spacing and font options for chapters
-{\color{ocre!60}\thecontentslabel\color{ocre}} % Chapter number
+%{\color{ocre!60}\thecontentslabel\color{ocre}} % Chapter number
+{\color{ocre}\contentslabel{3cm}\color{ocre}} % Chapter number
 {}
 {} % Page number
 []
 
 %{\color{ocre!60}\normalsize\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
-
 
 
 % Section text styling
@@ -179,7 +179,7 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
 []
 
 % Subsection text styling
-\titlecontents{subsection}[1.25cm] % Indentation
+\titlecontents{subsection}[2.5cm] % Indentation
 {\addvspace{1pt}\sffamily\small} % Spacing and font options for subsections
 {\contentslabel[\thecontentslabel]{1.25cm}} % Subsection number
 {}
@@ -209,14 +209,14 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
 % Chapter text styling
 \titlecontents{lchapter}[0em] % Indenting
 {\addvspace{15pt}\large\sffamily\bfseries} % Spacing and font options for chapters
-{\color{ocre}\contentslabel[\Large\thecontentslabel]{1.5cm}\color{ocre}} % Chapter number
+{\color{ocre}\contentslabel[\Large\thecontentslabel]{3.5cm}\color{ocre}} % Chapter number
 {}  
 {\color{ocre}\normalsize\sffamily\bfseries\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
 
 % Section text styling
 \titlecontents{lsection}[0em] % Indenting
 {\sffamily\small} % Spacing and font options for sections
-{\contentslabel[\thecontentslabel]{1.25cm}} % Section number
+{\contentslabel[\thecontentslabel]{2.25cm}} % Section number
 {}
 {}
 

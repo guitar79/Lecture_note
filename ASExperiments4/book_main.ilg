@@ -1,54 +1,11 @@
 This is makeindex, version 2.15 [TeX Live 2017/W32TeX] (kpathsea + Thai support).
 Scanning input file book_main.idx....
-!! Input index error (file = book_main.idx, line = 13):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 14):
+!! Input index error (file = book_main.idx, line = 9):
    -- Illegal null field.
 
-!! Input index error (file = book_main.idx, line = 28):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 29):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 30):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 31):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 32):
+!! Input index error (file = book_main.idx, line = 16):
    -- Illegal null field.
 
-!! Input index error (file = book_main.idx, line = 34):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 35):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 36):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 37):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 38):
-   -- Illegal null field.
-
-!! Input index error (file = book_main.idx, line = 40):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 41):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 42):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 43):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 44):
-   -- Illegal null field.
-
-!! Input index error (file = book_main.idx, line = 46):
-   -- Illegal null field.
-
-!! Input index error (file = book_main.idx, line = 48):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 49):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 50):
-   -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 51):
-   -- Illegal null field.
 !! Input index error (file = book_main.idx, line = 52):
    -- Illegal null field.
 !! Input index error (file = book_main.idx, line = 53):
@@ -59,10 +16,54 @@ Scanning input file book_main.idx....
    -- Illegal null field.
 !! Input index error (file = book_main.idx, line = 56):
    -- Illegal null field.
-!! Input index error (file = book_main.idx, line = 57):
+
+!! Input index error (file = book_main.idx, line = 58):
    -- Illegal null field.
-done (29 entries accepted, 28 rejected).
-Sorting entries....done (159 comparisons).
-Generating output file book_main.ind....done (67 lines written, 0 warnings).
+!! Input index error (file = book_main.idx, line = 59):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 60):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 61):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 62):
+   -- Illegal null field.
+
+!! Input index error (file = book_main.idx, line = 64):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 65):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 66):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 67):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 68):
+   -- Illegal null field.
+
+!! Input index error (file = book_main.idx, line = 70):
+   -- Illegal null field.
+
+!! Input index error (file = book_main.idx, line = 72):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 73):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 74):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 75):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 76):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 77):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 78):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 79):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 80):
+   -- Illegal null field.
+!! Input index error (file = book_main.idx, line = 81):
+   -- Illegal null field.
+done (53 entries accepted, 28 rejected).
+Sorting entries....done (314 comparisons).
+Generating output file book_main.ind....done (100 lines written, 0 warnings).
 Output written in book_main.ind.
 Transcript written in book_main.ilg.
