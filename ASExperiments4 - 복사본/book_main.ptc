@@ -1,0 +1,43 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\@mypartnumtocformat {I}{대기과학 실험을 위한 준비}}{7}{part.1}
+\ttl@starttoc {default@1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {제~1~Chapter}대기과학 기초}{9}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~1~절}과학 측정}{9}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}목적}{9}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}관측과 측정}{9}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~2~절}대기과학에 사용되는 단위들}{9}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {제~2~Chapter}컴퓨터 이용}{11}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~1~절}Spread Sheet}{12}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Spread Sheet basic}{12}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~2~절}Python}{14}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Python 소개}{14}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Python 설치}{14}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Python 시작하기}{14}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Editing Files}{15}{subsection.2.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5}Getting your code to work}{15}{subsection.2.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~3~절}파이썬 라이브러리}{16}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Numpy}{16}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Matplotlib}{16}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}matplotlib basemap toolkit}{16}{subsection.2.3.3}
+\contentsfinish 
