@@ -2,10 +2,10 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {I}{대기과학}}{7}{part.1}
+\contentsline {part}{\@mypartnumtocformat {I}{준비}}{7}{part.1}
 \ttl@starttoc {default@1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {제~1~Chapter}대기과학 기초}{9}{chapter.1}
+\contentsline {chapter}{\numberline {제~1~Chapter}대기 과학 기초}{9}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {제~1~절}과학 측정}{9}{section.1.1}
 \defcounter {refsection}{0}\relax 
@@ -13,155 +13,245 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2}관측과 측정}{9}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~2~절}대기과학에 사용되는 단위들}{9}{section.1.2}
+\contentsline {subsection}{\numberline {1.3}차원}{10}{subsection.1.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {II}{Part Two}}{11}{part.2}
+\contentsline {section}{\numberline {제~2~절}국제 단위계}{10}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}기본 단위}{10}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1}길이의 단위(미터)}{10}{subsubsection.1.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.2}질량의 단위(킬로그램)}{10}{subsubsection.1.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.3}시간의 단위 (초)}{10}{subsubsection.1.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.4}전류의 단위 (암페어)}{11}{subsubsection.1.2.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.5}열역학적 온도의 단위 (켈빈)}{11}{subsubsection.1.2.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.6}물질량의 단위 (몰)}{11}{subsubsection.1.2.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.7}광도의 단위 (칸델라)}{11}{subsubsection.1.2.1.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}유도 단위}{12}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {제~2~Chapter}컴퓨터 이용}{13}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~1~절}Spread Sheet}{14}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Spread Sheet basic}{14}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~2~절}Python}{16}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Python 소개}{16}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Python 설치}{16}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Python 시작하기}{16}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Editing Files}{17}{subsection.2.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5}Getting your code to work}{17}{subsection.2.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~3~절}파이썬 라이브러리}{18}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Numpy}{18}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Matplotlib}{18}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}matplotlib basemap toolkit}{18}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {제~3~Chapter}자동 기상 관측 시스템(AWS)}{21}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~1~절}AWS 구성}{21}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~2~절}AWS 자료 분석}{21}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~3~절}일기도란}{22}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}일기도(synoptic chart)}{22}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.1}일기도의 종류(규모에 따라)}{22}{subsubsection.3.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.2}일기도가 제공하는 정보}{22}{subsubsection.3.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}지도 투영법(map projection)}{22}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}일기도용 지도 투영법}{23}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.1}극 평사 도법(polar stereographic projection)}{23}{subsubsection.3.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.2}람베르트 원뿔 도법(Lambert conformal conic projection)}{23}{subsubsection.3.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.3}메르카토르 원통 도법(Mercator projection)}{24}{subsubsection.3.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~4~절}일기도의 종류}{24}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}지상 일기도}{24}{subsection.3.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1}지상03}{24}{subsubsection.3.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2}지상12}{24}{subsubsection.3.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}상층 일기도}{26}{subsection.3.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1}925 hPa 면 (810 m)}{26}{subsubsection.3.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2}850 hPa 면 (1,500 m)}{26}{subsubsection.3.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.3}700 hPa 면 (3,000 m)}{26}{subsubsection.3.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.4}500 hPa 면 (5,580 m)}{26}{subsubsection.3.4.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.5}300 hPa 면 (9,180 m)}{26}{subsubsection.3.4.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.6}200 hPa 면 (11,760 m)}{27}{subsubsection.3.4.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.7}100 hPa 면 (16,200 m)}{27}{subsubsection.3.4.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~5~절}일기도 그리기}{31}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}기상 관측}{31}{subsection.3.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}기상 전문 수신과 일기 기호}{31}{subsection.3.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}등압선 그리는 방법}{32}{subsection.3.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4}실습 예제}{36}{subsection.3.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.1}전선이 그려진 경우}{36}{subsubsection.3.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.2}전선이 한 개 있는 경우}{37}{subsubsection.3.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.3}전선이 두 개 있는 경우}{38}{subsubsection.3.5.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.4}실제 일기도 그리기}{39}{subsubsection.3.5.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {제~4~Chapter}기상청 일기 예보}{41}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~1~절}예보가 나오는 과정}{41}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~2~절}기상실황 파악}{41}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}지상기상 관측}{41}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}항공기상관측}{41}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}고층기상관측}{41}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}해양기상관측}{42}{subsection.4.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5}기상위성관측}{42}{subsection.4.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6}기상레이더 관측}{42}{subsection.4.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~3~절}자료수집}{42}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~4~절}일기도 분석}{42}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}예상일기도 그리기}{43}{subsection.4.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {제~5~Chapter}기상청(www.kma.go.kr) 일기 예보}{45}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~1~절}기상청 일기 예보의 종류}{45}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}초단기 동네 예보}{45}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}동네 예보}{45}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3}주간 예보}{45}{subsection.5.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4}주말 예보}{45}{subsection.5.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5}장기 예보}{46}{subsection.5.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~2~절}기상 위성 자료의 해석}{47}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}기상위성의 이해}{47}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~3~절}일기도 그리기}{48}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}지도 그리기}{48}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}일기도 모양의 지도 그리기}{49}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {제~6~Chapter}지구 온난화 모델링}{53}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~1~절}Time-Stepping Naked Planet Model}{53}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}How the Model Works}{53}{subsection.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}방정식}{54}{subsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3}Python 이용}{57}{subsection.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4}Python 이용 해설}{57}{subsection.6.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5}Quiz}{59}{subsection.6.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~2~절}Iterative Runaway Ice-Albedo Feedback Model}{60}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}How the Model Works}{60}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}T와 Ice ltitude and Albedo 파라메타}{61}{subsection.6.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}스프레드시트 이용}{61}{subsection.6.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Python 이용}{62}{subsection.6.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5}Quiz}{64}{subsection.6.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~3~절}A Simple 1-D Ice Sheet Flow Model}{64}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}How the Model Works}{64}{subsection.6.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Model Formulation}{65}{subsection.6.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}스프레드 시트 이용}{66}{subsection.6.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Python 이용}{67}{subsection.6.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5}Quiz}{68}{subsection.6.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {제~4~절}A 2-D Gridded Shallow Water Model}{68}{section.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}How the Model Works}{68}{subsection.6.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Model Description}{70}{subsection.6.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}....}{75}{subsection.6.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}....}{75}{subsection.6.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5}....}{75}{subsection.6.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6}....}{75}{subsection.6.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7}....}{75}{subsection.6.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.8}....}{75}{subsection.6.4.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.9}....}{75}{subsection.6.4.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.10}....}{75}{subsection.6.4.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.11}....}{75}{subsection.6.4.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.12}....}{75}{subsection.6.4.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\@mypartnumtocformat {II}{부록}}{77}{part.2}
 \ttl@stoptoc {default@1}
 \ttl@starttoc {default@2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {제~2~Chapter}실험}{13}{chapter.2}
+\contentsline {section}{Index}{79}{section*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~1~절}빗방울의 낙하 속도}{13}{section.2.1}
+\contentsline {section}{Bibliography}{85}{section*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {제~3~Chapter}대기의 안정도와 단열선도}{17}{chapter.3}
+\contentsline {section}{Books}{85}{section*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~1~절}단열선도}{17}{section.3.1}
+\contentsline {section}{Articles}{85}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~2~절}사용 실례}{17}{section.3.2}
+\contentsline {section}{감사의 글}{85}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~3~절}대기 안정도 분석}{18}{section.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~4~절}일기도 그리기}{19}{section.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}일기도}{19}{subsection.3.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}관측자료 기입}{19}{subsection.3.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~5~절}Corollaries}{20}{section.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~6~절}일기도 분석}{21}{section.3.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}예상일기도 그리기}{22}{subsection.3.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {제~4~Chapter}일기예보 과정}{23}{chapter.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~1~절}예보가 나오는 과정}{23}{section.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~2~절}기상실황 파악}{23}{section.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}지상기상 관측}{23}{subsection.4.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}항공기상관측}{23}{subsection.4.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}고층기상관측}{23}{subsection.4.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}해양기상관측}{24}{subsection.4.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}기상위성관측}{24}{subsection.4.2.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6}기상레이더 관측}{24}{subsection.4.2.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~3~절}자료수집}{24}{section.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {제~5~Chapter}기상청(www.kma.go.kr) 일기 예보}{25}{chapter.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~1~절}기상청 일기 예보의 종류}{25}{section.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}초단기 동네 예보}{25}{subsection.5.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}동네 예보}{25}{subsection.5.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3}주간 예보}{25}{subsection.5.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4}주말 예보}{25}{subsection.5.1.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5}장기 예보}{26}{subsection.5.1.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {III}{파이썬 (Python)}}{27}{part.3}
-\ttl@stoptoc {default@2}
-\ttl@starttoc {default@3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {제~6~Chapter}Basic Phthon}{29}{chapter.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~1~절}Python 소개}{29}{section.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~2~절}Python 기초}{29}{section.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~3~절}Python 설치}{30}{section.6.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {제~7~Chapter}필수 파이썬 라이브러리}{31}{chapter.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~1~절}Numpy}{31}{section.7.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~2~절}Matplotlib}{31}{section.7.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~3~절}matplotlib basemap toolkit}{32}{section.7.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}지도 그리기}{32}{subsection.7.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}일기도 모양의 지도 그리기}{33}{subsection.7.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {IV}{Part One}}{37}{part.4}
-\ttl@stoptoc {default@3}
-\ttl@starttoc {default@4}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {제~8~Chapter}Text Chapter}{39}{chapter.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~1~절}Paragraphs of Text}{39}{section.8.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~2~절}Citation}{40}{section.8.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~3~절}Lists}{40}{section.8.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Numbered List}{41}{subsection.8.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Bullet Points}{41}{subsection.8.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Descriptions and Definitions}{41}{subsection.8.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {제~9~Chapter}In-text Elements}{43}{chapter.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~1~절}Theorems}{43}{section.9.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Several equations}{43}{subsection.9.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}Single Line}{43}{subsection.9.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~2~절}Definitions}{43}{section.9.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~3~절}Notations}{44}{section.9.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~4~절}Remarks}{44}{section.9.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~5~절}Corollaries}{44}{section.9.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~6~절}Propositions}{44}{section.9.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Several equations}{44}{subsection.9.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Single Line}{45}{subsection.9.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~7~절}Examples}{45}{section.9.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Equation and Text}{45}{subsection.9.7.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Paragraph of Text}{45}{subsection.9.7.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~8~절}Exercises}{45}{section.9.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~9~절}Problems}{45}{section.9.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {제~10~절}Vocabulary}{45}{section.9.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Index}}{47}{section*.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{51}{chapter*.14}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Books}{51}{section*.15}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Articles}{51}{section*.16}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{감사의 글}{51}{section*.16}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{경력}{51}{section*.16}
+\contentsline {section}{경력}{85}{section*.30}
 \contentsfinish 

@@ -1,0 +1,61 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The Legrand Orange Book
+% Structural Definitions File
+% Version 2.0 (9/2/15)
+%
+% Original author:
+% Mathias Legrand (legrand.mathias@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+% 
+% This file has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[hangul]{kotex} %<===> EUC-KR
+\usepackage{ifxetex} % 부득이하게 pdflatex을 사용해도 문제가 없도록 함
+\ifxetex
+%한글 사용 옵션
+\RequirePackage{xetexko}
+	\setmainfont[Ligatures=TeX]{batang}
+	\setmainhangulfont[BoldFont=*,BoldFeatures=FakeBold,%
+	ItalicFont=*,ItalicFeatures=FakeSlant]{batang}
+%\RequirePackage{xetexko}
+%	\setmainfont[Ligatures=TeX]{Times New Roman}
+%	\setmainhangulfont[BoldFont=*,BoldFeatures=FakeBold,%
+%	ItalicFont=*,ItalicFeatures=FakeSlant]{NanumMyeongjo}
+
+\usepackage{indentfirst}\setlength\parindent{2em} %모든 문단에 들여쓰기를 하기 위해서 들여쓰기를 하고싶지 않은 문단에는 앞머리에 \noindent
+\usepackage{graphicx} % Required for the inclusion of images
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage{amsmath} % Required for some math elements 
+\usepackage[top=3cm,bottom=3cm,left=3cm,right=3cm,headsep=10pt,a4paper]{geometry} % Page margins
+\usepackage{tikz} % Required for drawing custom shapes
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage{subcaption}
+%\usepackage{float}
+%\floatstyle{plaintop}
+%\restylefloat{table}
+\usepackage[tableposition=top]{caption}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% caption format %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\renewcommand{\figurename}{Fig.}
+\captionsetup[figure]{%
+	font=small,labelsep=period,singlelinecheck=off,aboveskip=0pt,% 
+	belowskip=5pt, margin=0pt,subrefformat=parens%
+}
+\captionsetup[table]{%
+	font=small,labelsep=period,singlelinecheck=off,aboveskip=5pt,% 
+	margin=0pt%
+}
+\captionsetup[equation]{%
+	font=small,labelsep=period,singlelinecheck=off,aboveskip=5pt,% 
+	margin=0pt%
+}
+

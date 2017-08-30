@@ -45,7 +45,10 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
   showstringspaces=false,
   columns=flexible,
   basicstyle={\small\ttfamily},
-  numbers=none,
+  numbers=left,                   % where to put the line-numbers
+  numberstyle=\tiny\color{gray},  % the style that is used for the line-numbers
+  stepnumber=1,                   % the step between two line-numbers. If it's 1, each line
+  %numbers=none,
   numberstyle=\tiny\color{gray},
   keywordstyle=\color{blue},
   commentstyle=\color{dkgreen},
@@ -59,12 +62,13 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
 \bibdata
 
 
-\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+%\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage[margin=10pt,font=small,labelfont=bf,tableposition=top]{caption}
 \usepackage{subcaption}
 %\usepackage{float}
 %\floatstyle{plaintop}
 %\restylefloat{table}
-\usepackage[tableposition=top]{caption}
+%\usepackage[tableposition=top]{caption}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% caption format %%%%%
@@ -134,6 +138,12 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
 \usepackage{makeidx} % Required to make an index
 \makeindex % Tells LaTeX to create the files required for indexing
 
+\bibliography{bibfile} % 참고문헌
+% BibTeX 코드 쉽게 얻어오는 방법 %
+% Google Scholar 에서 검색한 결과에서 `인용'을 클릭한다.
+% BibTeX 코드를 얻고자 한다면, 하단의 `BibTeX' 을 클릭.
+% 코드가 나온다. Ctrl+A, Ctrl+C로 복사, bibfile에 붙여넣기.
+
 %----------------------------------------------------------------------------------------
 %	MAIN TABLE OF CONTENTS
 %----------------------------------------------------------------------------------------
@@ -150,15 +160,15 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
 {}
 
 % Chapter text styling
-\titlecontents{chapter}[0em] % Indentation
+\titlecontents{chapter}[3cm] % Indentation
 {\addvspace{12pt}\large\sffamily\bfseries} % Spacing and font options for chapters
-{\color{ocre!60}\thecontentslabel\color{ocre}} % Chapter number
+%{\color{ocre!60}\thecontentslabel\color{ocre}} % Chapter number
+{\color{ocre}\contentslabel{3cm}\color{ocre}} % Chapter number
 {}
 {} % Page number
 []
 
 %{\color{ocre!60}\normalsize\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
-
 
 
 % Section text styling
@@ -170,7 +180,7 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
 []
 
 % Subsection text styling
-\titlecontents{subsection}[1.25cm] % Indentation
+\titlecontents{subsection}[2.5cm] % Indentation
 {\addvspace{1pt}\sffamily\small} % Spacing and font options for subsections
 {\contentslabel[\thecontentslabel]{1.25cm}} % Subsection number
 {}
@@ -200,14 +210,14 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
 % Chapter text styling
 \titlecontents{lchapter}[0em] % Indenting
 {\addvspace{15pt}\large\sffamily\bfseries} % Spacing and font options for chapters
-{\color{ocre}\contentslabel[\Large\thecontentslabel]{1.5cm}\color{ocre}} % Chapter number
+{\color{ocre}\contentslabel[\Large\thecontentslabel]{3.5cm}\color{ocre}} % Chapter number
 {}  
 {\color{ocre}\normalsize\sffamily\bfseries\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
 
 % Section text styling
 \titlecontents{lsection}[0em] % Indenting
 {\sffamily\small} % Spacing and font options for sections
-{\contentslabel[\thecontentslabel]{1.25cm}} % Section number
+{\contentslabel[\thecontentslabel]{2.25cm}} % Section number
 {}
 {}
 
