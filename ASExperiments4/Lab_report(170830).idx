@@ -7,14 +7,20 @@
 \indexentry{관측자의 중요성|hyperpage}{3}
 \indexentry{관측소의 선정|hyperpage}{4}
 \indexentry{관측소 좌표|hyperpage}{5}
+<<<<<<< HEAD
 \indexentry{측기의 바람직한 특성들|hyperpage}{5}
 \indexentry{측기의 균질성의 변화|hyperpage}{5}
+=======
+\indexentry{측기의 특성과 균질성의 변화|hyperpage}{5}
+\indexentry{측기의 바람직한 특성들|hyperpage}{6}
+>>>>>>> baf41d259c4748754a83ad0ee0d9825a7efd766b
 \indexentry{관측 값|hyperpage}{6}
 \indexentry{단위|hyperpage}{6}
 \indexentry{상수|hyperpage}{6}
 \indexentry{관측 자료 조건|hyperpage}{7}
 \indexentry{기압|hyperpage}{7}
 \indexentry{기온|hyperpage}{8}
+<<<<<<< HEAD
 \indexentry{습도|hyperpage}{8}
 \indexentry{바람|hyperpage}{9}
 \indexentry{구름|hyperpage}{10}
@@ -22,3 +28,9 @@
 \indexentry{데이터 처리하기|hyperpage}{13}
 \indexentry{기온의 일변화|hyperpage}{13}
 \indexentry{기온의 년변화|hyperpage}{14}
+=======
+\indexentry{습도|hyperpage}{9}
+\indexentry{바람|hyperpage}{10}
+\indexentry{구름|hyperpage}{11}
+\indexentry{강수|hyperpage}{13}
+>>>>>>> baf41d259c4748754a83ad0ee0d9825a7efd766b
