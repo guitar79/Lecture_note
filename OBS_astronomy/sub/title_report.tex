@@ -1,44 +1,40 @@
-
+\maketitle
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
+%\renewcommand{\maketitle}{%
+%	\thispagestyle{empty}   %%%% 제 1 타이틀 페이지
+%	\begin{minipage}[h][5mm][c]{\textwidth}
+%	\large\bfseries \subject  \\
+%	\end{minipage}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%define title page layout%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\renewcommand{\maketitle}{%
-	\thispagestyle{empty}   %%%% 제 1 타이틀 페이지
-	\begin{center}
-		\begin{minipage}[h][20mm][c]{\textwidth}
-			{\large\bfseries \subject  \\
-		\end{minipage}
-		\vspace{80mm}
-		\begin{minipage}[h][50mm][c]{\textwidth}
-			\begin{center}
-				\huge\bfseries \title  \\
-			\end{center}
-		\end{minipage}
-		\vspace{20mm}
-		\begin{minipage}[h][15mm][c]{\textwidth}
-			\begin{center}
-				\normalsize\bfseries \date
-			\end{center}
-		\end{minipage}
-		%		\vspace{20mm}
-		\begin{minipage}[h][15mm][c]{\textwidth}
-			\begin{center}
-				\normalsize\bfseries \author \\
-				(\email)
-			\end{center}
-		\end{minipage}
-		\begin{minipage}[h][15mm][c]{\textwidth}
-		\begin{center}
-			\large\bfseries \school \\
-		\end{center}
-	\end{minipage}
+  
+%----------------------------------------------
+%   Table of Contents (자동 작성됨)
+%----------------------------------------------
+%\cleardoublepage
+%\addcontentsline{toc}{section}{Contents}
+%\setcounter{secnumdepth}{3} % organisational level that receives a numbers
+%\setcounter{tocdepth}{3}    % print table of contents for level 3
+%\baselineskip=2.2em
+%\tableofcontents
 
-	\end{center}
-}
 
-%  \null\vfill
+%----------------------------------------------
+%     List of Figures/Tables (자동 작성됨)
+%----------------------------------------------
+%\cleardoublepage
+%\clearpage
+%\listoffigures	% 그림 목록과 캡션을 출력한다. 만약 논문에 그림이 없다면 이 줄의 맨 앞에 %기호를 넣어서 코멘트 처리한다.
+
+%\cleardoublepage
+%\clearpage
+%\listoftables  % 표 목록과 캡션을 출력한다. 만약 논문에 표가 없다면 이 줄의 맨 앞에 %기호를 넣어서 코멘트 처리한다.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Main Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\cleardoublepage
+%\clearpage
+

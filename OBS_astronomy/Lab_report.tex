@@ -1,3 +1,6 @@
+% !TeX program = xelatex
+%% 부득이하게 pdflatex을 사용해야 할 경우 위의 magic comment를 제거하십시오.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The Legrand Orange Book
 % LaTeX Template
@@ -38,60 +41,53 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\include{sub/preamble} % usepackage 등의 명령어는 여기에.
+\usepackage{cite}
+\usepackage{textcomp}
+\usepackage{tocloft}
+\setlength{\cftbeforesecskip}{0pt}
+\setlength{\cftbeforesubsecskip}{0pt}
+\setlength{\cftbeforesubsubsecskip}{0pt}
+
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-
 %\documentclass[11pt,fleqn]{book_main} % Default font size and left-justified equations
 %\documentclass[11pt,fleqn]{book} % Default font size and left-justified equations
-\documentclass[11pt,fleqn]{article}
 %----------------------------------------------------------------------------------------
 
-\include{sub/preamble} % 	
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 \def\subject{관측 천문학} % subject
-\def\title{일기도 그리기} % Title
-\def\author{Kiehyun \textsc{Park}} % Author name
+%\def\unittitle{python 기초} % Title
+\title{python 기초} % Title
+\author{Kiehyun \textsc{Park}} % Author name
+%\def\unitauthor{Kiehyun \textsc{Park}} % Author name
 \def\email{guitar79@naver.com} % Author name
-\def\date{2017. 8. 18.} % date
+\def\date{2018. 8. 18.} % date
 \def\school{Gyeonggi Science High School for the Gifted}
-
 % command to print the title page with above variables
-\maketitle
-\pagenumbering{arabic}
+
 
 
 
 \begin{document}
-
-\include{sub/title_report} % Title page
-
-
-%\chapter{일기도 그리기}
-\setcounter{page}{1}
-\include{12python/python_basic}
-%\include{22Weather_forecasting/KMA_forecasting}
-%\include{sub/analysis_SI}
-%\include{sub/Drawing_WM}
-%\include{41global_warming_modeling/global_warming_modeling}
-%\include{sub/part00}
-
+	%\include{sub/title_report} % Title page
+	\maketitle
+	\renewcommand{\thepage}{\arabic{page}}
+	\setcounter{page}{1}
+	\include{12python/python_basic}
+	%\include{22Weather_forecasting/KMA_forecasting}
+	%\include{sub/analysis_SI}
+	%\include{sub/Drawing_WM}
+	%\include{41global_warming_modeling/global_warming_modeling}
+	%\include{sub/part00}
 
 %----------------------------------------------------------------------------------------
 
 
 %----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
-
-%\bibliographystyle{apalike}
-
-%\bibliography{22Weather_forecasting/weather_forecasting}
-
-%----------------------------------------------------------------------------------------
-
 
 \end{document}
