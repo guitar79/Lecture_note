@@ -138,27 +138,60 @@
 
 \section{1}
 \begin{frame}{1.1}\footnotesize
+
 	관성계 : 절대 좌표계 $ (x, y, z)$ \\
-	비관성계 : 회전좌표계 $ (x^{\prime}, y^{\prime}, z^{\prime})$ ~~ 극좌표 $ (r, \theta, z)$\\
+	비관성계 : 회전좌표계 $ (x^{\prime}, y^{\prime}, z^{\prime})$ 
+	극좌표 $ (r, \theta, z)$\\
 	\\
 	$ (x, y, z) 	\rightarrow (r, \theta, z)$\\
-	수평 방향은 정역학 평형 상태에 있으므로, 	$ (x, y) 	\rightarrow (r, \theta)$\\
+	수평 방향은 정역학 평형 상태에 있으므로, 	
+	$ (x, y) 	\rightarrow (r, \theta)$\\
+	
 	$ \overrightarrow {F} = F_{x} \hat{i}  + F_{y} \hat{j} $\\
-	$ F_{x} = m \dfrac{d^{2}x}{dt^{2}}$, $ F_{y} = m \dfrac{d^{2}y}{dt^{2}}$\\
-	\\
+	
+	$ F_{x} = m \dfrac{d^{2}x}{dt^{2}}$
+	$ F_{y} = m \dfrac{d^{2}y}{dt^{2}}$\\
+	
 	$ (x, y) = (r \cos \theta, r \sin \theta)$\\
-	$ F_{r} = F_{x} \cos \theta + F_{y} \sin \theta = m \left ( \dfrac{d^{2}x}{dt^{2}} \cos \theta + \dfrac{d^{2}y}{dt^{2}} \sin \theta \right) $\\
-	$ F_{\theta} = F_{y} \cos \theta - F_{x} \cos \theta = m \left ( \dfrac{d^{2}y}{dt^{2}} \cos \theta - \dfrac{d^{2}x}{dt^{2}} \cos \theta \right) $\\
+	
+	$ F_{r} = F_{x} \cos \theta + F_{y} \sin \theta 
+	= m \left ( \dfrac{d^{2}x}{dt^{2}} \cos \theta + \dfrac{d^{2}y}{dt^{2}} \sin \theta \right) $\\
+	
+	$ F_{\theta} = F_{y} \cos \theta - F_{x} \cos \theta 
+	= m \left ( \dfrac{d^{2}y}{dt^{2}} \cos \theta - \dfrac{d^{2}x}{dt^{2}} \cos \theta \right) $\\
+	
 \end{frame}
 
 \begin{frame}{1.2}\footnotesize
-	$ x = r \cos \theta $, $\dfrac{dx}{dt} = \cos \theta \dfrac{dr}{dt} - r \sin \theta \dfrac{d\theta}{dt}$, \\
+
+	$ x = r \cos \theta $ \\
+	
+	$\dfrac{dx}{dt} = \cos \theta \dfrac{dr}{dt} - r \sin \theta \dfrac{d\theta}{dt}$ \\
+	
 	$\dfrac{d^{2}x}{dt^{2}} = \cos \theta \dfrac{d^{2}r}{dt^{2}} - \sin \theta \dfrac{dr}{dt} - \sin \theta \dfrac{dr}{dt} \dfrac{d\theta}{dt} -r \cos \theta \dfrac{d^{2}\theta}{dt^{2}}$\\
 	\\
-	$ y = r \sin \theta $, $\dfrac{dy}{dt} = \sin \theta \dfrac{dr}{dt} + r \cos \theta \dfrac{d\theta}{dt}$, \\
+	$ y = r \sin \theta $ \\
+	
+	$\dfrac{dy}{dt} = \sin \theta \dfrac{dr}{dt} + r \cos \theta \dfrac{d\theta}{dt}$ \\
+
 	$\dfrac{d^{2}t}{dt^{2}} = \sin \theta \dfrac{d^{2}r}{dt^{2}} + \cos \theta \dfrac{dr}{dt} + \cos \theta \dfrac{dr}{dt} \dfrac{d\theta}{dt} -r \sin \theta \dfrac{d^{2}\theta}{dt^{2}}$\\
 	\\
 
+\end{frame}
+
+\begin{frame}{1.3}\footnotesize
+
+	$ F_{r} = F_{x} \cos \theta + F_{y} \sin \theta 
+	= m \left ( \dfrac{d^{2}x}{dt^{2}} \cos \theta + \dfrac{d^{2}y}{dt^{2}} \sin \theta \right) $\\
+	
+	$ F_{\theta} = F_{y} \cos \theta - F_{x} \cos \theta 
+	= m \left ( \dfrac{d^{2}y}{dt^{2}} \cos \theta - \dfrac{d^{2}x}{dt^{2}} \cos \theta \right) $\\
+	
+	$\dfrac{d^{2}x}{dt^{2}} = \cos \theta \dfrac{d^{2}r}{dt^{2}} - \sin \theta \dfrac{dr}{dt} - \sin \theta \dfrac{dr}{dt} \dfrac{d\theta}{dt} -r \cos \theta \dfrac{d^{2}\theta}{dt^{2}}$\\
+	
+	$\dfrac{d^{2}t}{dt^{2}} = \sin \theta \dfrac{d^{2}r}{dt^{2}} + \cos \theta \dfrac{dr}{dt} + \cos \theta \dfrac{dr}{dt} \dfrac{d\theta}{dt} -r \sin \theta \dfrac{d^{2}\theta}{dt^{2}}$\\
+	
+	
 	정리하면, \\
 	
 	$ F_{r} = m \left[ \dfrac{d^{2}r}{dt^{2}} - r \left( {\dfrac{d \theta}{dt}} \right)^{2} \right] $\\
@@ -168,29 +201,29 @@
 \end{frame}
 
 
-\begin{frame}{1.3}\footnotesize
+\begin{frame}{1.4}\footnotesize
 
 	$\dfrac{d \theta}{dt} = \Omega $, $ r\dfrac{d \theta}{dt} = r \Omega $, $u_{\theta} $, $\dfrac{dr}{dt} = v_{r}$\\
-
+	
 	$\dfrac{d}{dt} r^{2}\Omega = 2 r \dfrac{dr}{dt} \Omega + r^{2} \dfrac{d\Omega}{dt}\\
-	 =  r \left( r \dfrac{d\Omega}{dt} +2 \dfrac{dr}{dt} \Omega \right) \\
-\\
-$ r F_{\theta} = m \dfrac{d}{dt} \left(r^{2} \Omega \right) $
-$ r^{2} \Omega = const$\\
-\\
-
-$ r \left( r \Omega \right) = r u_{\theta} = const $ \\
-\\
-
-$ R_{1} v_{1} = R_{2} v_{2}$\\
-\\
+	=  r \left( r \dfrac{d\Omega}{dt} +2 \dfrac{dr}{dt} \Omega \right) \\
+	\\
+	$ r F_{\theta} = m \dfrac{d}{dt} \left(r^{2} \Omega \right) $
+	$ r^{2} \Omega = const$\\
+	\\
+	
+	$ r \left( r \Omega \right) = r u_{\theta} = const $ \\
+	\\
+	
+	$ R_{1} v_{1} = R_{2} v_{2}$\\
+	\\
 
 
 \end{frame}
 
 
 
-\begin{frame}{1.4}\footnotesize
+\begin{frame}{1.5}\footnotesize
 
 $ dV = dx \cdot dy \cdot dz $\\
 $x$ 방향 \\
