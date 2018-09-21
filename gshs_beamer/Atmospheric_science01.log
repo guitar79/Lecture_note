@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.11)  21 SEP 2018 12:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.11)  21 SEP 2018 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,34 +6,7 @@ entering extended mode
 (./Atmospheric_science01.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 <
-     <<<<<< HEAD
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no < in font nullfont!
-Missing character: There is no < in font nullfont!
-Missing character: There is no < in font nullfont!
-Missing character: There is no < in font nullfont!
-Missing character: There is no < in font nullfont!
-Missing character: There is no < in font nullfont!
-Missing character: There is no < in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no D in font nullfont!
 (c:/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--13
-[]
- []
-
 Document Class: beamer 2018/02/20 v3.50 A class for typesetting presentations
 (c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
 (c:/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -498,30 +471,8 @@ Package: filehook 2011/10/12 v0.5d Hooks for input files
 (c:/texlive/2018/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 ))
-(c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.158 \onecolumn
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.158 \onecolumn
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[1]) (c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
 (c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
 \beamer@argscount=\count128
 \beamer@lastskipcover=\skip44
@@ -685,7 +636,7 @@ Package: amsthm 2017/10/31 v2.20.4
 \beamer@dimb=\dimen189
 )
 (c:/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-Package hyperref Info: Option `unicode' set `true' on input line 5.
+Package hyperref Info: Option `unicode' set `true' on input line 4.
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
@@ -861,30 +812,30 @@ File: se-pdfdoc.def 2016/05/16 v1.11 stringenc: PDFDocEncoding
 (./Atmospheric_science01.aux)
 \openout1 = `Atmospheric_science01.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 128.
 LaTeX Font Info:    Try loading font information for LUC+nanummj on input line 
-129.
+128.
 
 (c:/texlive/2018/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    ... okay on input line 128.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -952,7 +903,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box80
-Package hyperref Info: Link coloring OFF on input line 129.
+Package hyperref Info: Link coloring OFF on input line 128.
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -962,66 +913,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count174
 )
-LaTeX Info: Redefining \ref on input line 129.
-LaTeX Info: Redefining \pageref on input line 129.
-LaTeX Info: Redefining \nameref on input line 129.
+LaTeX Info: Redefining \ref on input line 128.
+LaTeX Info: Redefining \pageref on input line 128.
+LaTeX Info: Redefining \nameref on input line 128.
 
 (./Atmospheric_science01.out) (./Atmospheric_science01.out)
 \@outlinefile=\write5
 \openout5 = `Atmospheric_science01.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 129.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 128.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 129.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 128.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 129.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 129.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 129.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 129.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 128.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 129.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 129.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 129.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 128.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 129.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 129.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 129.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 128.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 129.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 129.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 128.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 129.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 128.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 129.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 129.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 129.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 129.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 129.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 129.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 129.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 128.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 128.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
-29.
+28.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-129.
+128.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 129.
+ut line 128.
 
 (c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
 glish.dict
@@ -1047,31 +998,31 @@ Dictionary: translator-numbers-dictionary, Language: English
 English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./Atmospheric_science01.nav)
-<images/koistudy_icon.pdf, id=25, 128.43684pt x 77.2225pt>
+<images/koistudy_icon.pdf, id=22, 128.43684pt x 77.2225pt>
 File: images/koistudy_icon.pdf Graphic file (type pdf)
 <use images/koistudy_icon.pdf>
-Package pdftex.def Info: images/koistudy_icon.pdf  used on input line 133.
+Package pdftex.def Info: images/koistudy_icon.pdf  used on input line 132.
 (pdftex.def)             Requested size: 254.93564pt x 153.29692pt.
 LaTeX Font Info:    Try loading font information for LUC+nanumgt on input line 
-133.
+132.
 
 (c:/texlive/2018/texmf-dist/tex/latex/nanumtype1/lucnanumgt.fd
 File: lucnanumgt.fd 2013/02/12 v0.1 Nanum Gothic font definitions
-) [2
+) [1
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/koistu
 dy_icon.pdf>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 163.
+LaTeX Font Info:    Try loading font information for U+msa on input line 162.
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 163.
+LaTeX Font Info:    Try loading font information for U+msb on input line 162.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 163.
+line 162.
 
 (c:/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1084,23 +1035,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.163 \end{frame}
+l.162 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (45.0pt too wide) detected at line 163
+Overfull \hbox (45.0pt too wide) detected at line 162
  [] 
  []
 
 
-Overfull \hbox (6.52002pt too wide) in paragraph at lines 163--163
+Overfull \hbox (6.52002pt too wide) in paragraph at lines 162--162
 []|  [][][]  
  []
 
-[3
+[2
 
 ]
 
@@ -1110,7 +1061,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.186 \end{frame}
+l.179 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1123,32 +1074,31 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.186 \end{frame}
+l.179 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (45.0pt too wide) detected at line 186
+Overfull \hbox (45.0pt too wide) detected at line 179
  [] 
  []
 
 
-Overfull \hbox (6.52002pt too wide) in paragraph at lines 186--186
+Overfull \hbox (6.52002pt too wide) in paragraph at lines 179--179
+[]|  [][][]  
+ []
+
+[3
+
+]
+Overfull \hbox (45.0pt too wide) detected at line 204
+ [] 
+ []
+
+
+Overfull \hbox (6.52002pt too wide) in paragraph at lines 204--204
 []|  [][][]  
  []
 
@@ -1162,631 +1112,167 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 \end{frame}
+l.230 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.230 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 \end{frame}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (45.0pt too wide) detected at line 207
+Overfull \hbox (45.0pt too wide) detected at line 230
  [] 
  []
 
 
-Overfull \hbox (6.52002pt too wide) in paragraph at lines 207--207
+Overfull \hbox (6.52002pt too wide) in paragraph at lines 230--230
 []|  [][][]  
  []
 
 [5
 
 ]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 \end{frame}
+! Undefined control sequence.
+<recently read> \omaga 
+                       
+l.260 \end{frame}
                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.228 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.228 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.228 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (45.0pt too wide) detected at line 228
+Overfull \hbox (45.0pt too wide) detected at line 260
  [] 
  []
 
 
-Overfull \hbox (6.52002pt too wide) in paragraph at lines 228--228
+Overfull \hbox (6.52002pt too wide) in paragraph at lines 260--260
 []|  [][][]  
  []
 
 [6
 
 ]
-Missing character: There is no à in font cmss9!
 
-Overfull \hbox (45.0pt too wide) detected at line 251
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.277 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.277 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (45.0pt too wide) detected at line 277
  [] 
  []
 
 
-Overfull \hbox (6.52002pt too wide) in paragraph at lines 251--251
+Overfull \hbox (6.52002pt too wide) in paragraph at lines 277--277
 []|  [][][]  
  []
 
 [7
 
 ]
-Overfull \hbox (45.0pt too wide) detected at line 264
+Overfull \hbox (45.0pt too wide) detected at line 302
  [] 
  []
 
 
-Overfull \hbox (6.52002pt too wide) in paragraph at lines 264--264
+Overfull \hbox (6.52002pt too wide) in paragraph at lines 302--302
 []|  [][][]  
  []
 
 [8
 
 ]
-Overfull \hbox (45.0pt too wide) detected at line 271
+Overfull \hbox (45.0pt too wide) detected at line 336
  [] 
  []
 
 
-Overfull \hbox (6.52002pt too wide) in paragraph at lines 271--271
+Overfull \hbox (6.52002pt too wide) in paragraph at lines 336--336
 []|  [][][]  
  []
 
 [9
 
 ]
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.275 \documentclass
-                    [11pt]{beamer}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Package hyperref Info: Option `unicode' set `true' on input line 276.
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.278 \usetheme{Berkeley}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280 \usepackage
-                 {xcolor}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \usepackage
-                 {amssymb,amsmath,graphicx}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.282 \usepackage
-                 [hangul]{kotex}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.283 \usepackage
-                 {multimedia}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.284 \usepackage
-                 {setspace}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.285 \usepackage
-                 {multicol}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.287 \usepackage
-                 {lipsum}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 389.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.400 \begin{document}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: images/koistudy_icon.pdf Graphic file (type pdf)
-<use images/koistudy_icon.pdf>
-Package pdftex.def Info: images/koistudy_icon.pdf  used on input line 404.
-(pdftex.def)             Requested size: 254.93564pt x 153.29692pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10
-
-]
-[11]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.423 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.423 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (45.0pt too wide) detected at line 423
+Overfull \hbox (45.0pt too wide) detected at line 361
  [] 
  []
 
 
-Overfull \hbox (6.52002pt too wide) in paragraph at lines 423--423
+Overfull \hbox (6.52002pt too wide) in paragraph at lines 361--361
+[]|  [][][]  
+ []
+
+[10
+
+]
+Overfull \hbox (45.0pt too wide) detected at line 387
+ [] 
+ []
+
+
+Overfull \hbox (6.52002pt too wide) in paragraph at lines 387--387
+[]|  [][][]  
+ []
+
+[11
+
+]
+Overfull \hbox (45.0pt too wide) detected at line 395
+ [] 
+ []
+
+
+Overfull \hbox (6.52002pt too wide) in paragraph at lines 395--395
 []|  [][][]  
  []
 
 [12
-
-]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.439 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.439 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.439 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (45.0pt too wide) detected at line 439
- [] 
- []
-
-
-Overfull \hbox (6.52002pt too wide) in paragraph at lines 439--439
-[]|  [][][]  
- []
-
-[13
-
-]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.459 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.459 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.459 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.459 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.459 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.459 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.459 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.459 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (45.0pt too wide) detected at line 459
- [] 
- []
-
-
-Overfull \hbox (6.52002pt too wide) in paragraph at lines 459--459
-[]|  [][][]  
- []
-
-[14
-
-]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.480 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.480 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.480 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (45.0pt too wide) detected at line 480
- [] 
- []
-
-
-Overfull \hbox (6.52002pt too wide) in paragraph at lines 480--480
-[]|  [][][]  
- []
-
-[15
-
-]
-Overfull \hbox (45.0pt too wide) detected at line 489
- [] 
- []
-
-
-Overfull \hbox (6.52002pt too wide) in paragraph at lines 489--489
-[]|  [][][]  
- []
-
-[16
-
-] [17
 
 ]
 \tf@nav=\write6
@@ -1798,74 +1284,68 @@ Overfull \hbox (6.52002pt too wide) in paragraph at lines 489--489
 \tf@snm=\write8
 \openout8 = `Atmospheric_science01.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 491.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 491.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
  (./Atmospheric_science01.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 491.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 491.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 397.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
 Package rerunfilecheck Info: File `Atmospheric_science01.out' has not changed.
-(rerunfilecheck)             Checksum: AA5208647FA388FD8480AB477E595D00;72.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 400 (\begingroup)
-### bottom level 
+(rerunfilecheck)             Checksum: 345176D8F46A37171A90EF4854C83D10;72.
+ ) 
 Here is how much of TeX's memory you used:
- 21570 strings out of 492649
- 385088 string characters out of 6133384
- 555240 words of memory out of 5000000
- 24932 multiletter control sequences out of 15000+600000
+ 21560 strings out of 492649
+ 384988 string characters out of 6133384
+ 555253 words of memory out of 5000000
+ 24931 multiletter control sequences out of 15000+600000
  25981 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,61p,817b,719s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Navigation1} has been referenced bu
-t does not exist, replaced by a fixed one
-
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/201
-8/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmss9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
-bx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb><c:/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/public/nanumtype1/nanumgtbac.pfb><c:/texlive/2018/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanumgtbad.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanumgtbae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
-nanumtype1/nanumgtbb1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumt
-ype1/nanumgtbb4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/n
-anumgtbc0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgt
-bc6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc7.pf
-b><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc8.pfb><c:/
-texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbcc.pfb><c:/texliv
-e/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbd5.pfb><c:/texlive/2018
-/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmac.pfb><c:/texlive/2018/texmf
--dist/fonts/type1/public/nanumtype1/nanumgtmad.pfb><c:/texlive/2018/texmf-dist/
-fonts/type1/public/nanumtype1/nanumgtmb3.pfb><c:/texlive/2018/texmf-dist/fonts/
-type1/public/nanumtype1/nanumgtmb8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/nanumtype1/nanumgtmb9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
-/nanumtype1/nanumgtmba.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanum
-type1/nanumgtmbb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/
-nanumgtmbc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumg
-tmbe.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc0.p
-fb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc1.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc2.pfb><c:/texli
-ve/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><c:/texlive/201
-8/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc7.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/public/nanumtype1/nanumgtmc8.pfb><c:/texlive/2018/texmf-dist
-/fonts/type1/public/nanumtype1/nanumgtmcc.pfb><c:/texlive/2018/texmf-dist/fonts
-/type1/public/nanumtype1/nanumgtmd0.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/nanumtype1/nanumgtmd3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanumgtmd4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanu
-mtype1/nanumgtmd5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1
-/nanumgtmd6.pfb>
-Output written on Atmospheric_science01.pdf (17 pages, 637179 bytes).
+ 56i,16n,61p,817b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2018/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmss8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmss9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pf
+b><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanumgtbac.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanumgtbad.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/na
+numtype1/nanumgtbae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanumgtbb1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nan
+umgtbb4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc
+0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc6.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc7.pfb><c:/te
+xlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc8.pfb><c:/texlive/
+2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbcc.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/public/nanumtype1/nanumgtbd5.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/public/nanumtype1/nanumgtmac.pfb><c:/texlive/2018/texmf-dist/fo
+nts/type1/public/nanumtype1/nanumgtmad.pfb><c:/texlive/2018/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanumgtmb3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanumgtmb8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/n
+anumtype1/nanumgtmb9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumty
+pe1/nanumgtmba.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/na
+numgtmbb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtm
+bc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbe.pfb
+><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc0.pfb><c:/t
+exlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc1.pfb><c:/texlive
+/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc2.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><c:/texlive/2018/texmf-
+dist/fonts/type1/public/nanumtype1/nanumgtmc7.pfb><c:/texlive/2018/texmf-dist/f
+onts/type1/public/nanumtype1/nanumgtmc8.pfb><c:/texlive/2018/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanumgtmcc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanumgtmd0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
+nanumtype1/nanumgtmd3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumt
+ype1/nanumgtmd4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/n
+anumgtmd5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgt
+md6.pfb>
+Output written on Atmospheric_science01.pdf (12 pages, 635175 bytes).
 PDF statistics:
- 676 PDF objects out of 1000 (max. 8388607)
- 595 compressed objects within 6 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 564 PDF objects out of 1000 (max. 8388607)
+ 488 compressed objects within 5 object streams
+ 27 named destinations out of 1000 (max. 500000)
  92 words of extra memory for PDF output out of 10000 (max. 10000000)
 
