@@ -1,0 +1,257 @@
+%----------------------------------------------------------------------------------------
+%	PART
+%----------------------------------------------------------------------------------------
+
+\part{대기 역학}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+
+\chapterimage{chapter_head_2.pdf} % Chapter heading image
+
+\chapter{대기 역학}\index{대기 역학}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{좌표계}
+
+\subsection{좌표계1}
+
+관성계 : 절대 좌표계 $ (x,~y,~z)$ \\
+비관성계 : 회전좌표계 $ (x^{\prime},~y^{\prime},~z^{\prime})$ 
+극좌표 $ (r,~\theta,~z)$\\
+\\
+$ (x,~y,~z) 	\rightarrow (r,~\theta,~z)$ 에서 \\
+수평 방향은 정역학 평형 상태에 있으므로, \\	
+
+$ (x, y) 	\rightarrow (r, \theta)$\\
+
+$ \overrightarrow {F} = F_{x} \hat{i}  + F_{y} \hat{j} $ 에서 
+$ F_{x} = m \dfrac{d^{2}x}{dt^{2}}$, 
+$ F_{y} = m \dfrac{d^{2}y}{dt^{2}}$ 라고 할 수 있다.  \\
+
+$ (x, y) = (r \cos \theta, r \sin \theta)$ 에서 \\
+$ F_{r} = F_{x} \cos \theta + F_{y} \sin \theta $, 
+$ F_{\theta} = F_{y} \cos \theta - F_{x} \cos \theta $ 로 나타낼 수 있다. \\
+
+$ x = r \cos \theta $를 미분하면, \\
+$\dfrac{dx}{dt} = \cos \theta \dfrac{dr}{dt} - r \sin \theta \dfrac{d\theta}{dt}$ 이고, \\
+이를 다시 미분하면, 
+$\dfrac{d^{2}x}{dt^{2}} = \cos \theta \dfrac{d^{2}r}{dt^{2}} - \sin \theta \dfrac{dr}{dt} - \sin \theta \dfrac{dr}{dt} \dfrac{d\theta}{dt} -r \cos \theta \dfrac{d^{2}\theta}{dt^{2}}$\\
+같은 방법으로 $ y = r \sin \theta $ 를 미분하면 \\
+$\dfrac{dy}{dt} = \sin \theta \dfrac{dr}{dt} + r \cos \theta \dfrac{d\theta}{dt}$ 이고,\\
+이를 다시 미분하면
+$\dfrac{d^{2}t}{dt^{2}} = \sin \theta \dfrac{d^{2}r}{dt^{2}} + \cos \theta \dfrac{dr}{dt} + \cos \theta \dfrac{dr}{dt} \dfrac{d\theta}{dt} -r \sin \theta \dfrac{d^{2}\theta}{dt^{2}}$이다. \\
+
+
+
+$ F_{r} = F_{x} \cos \theta + F_{y} \sin \theta 
+= m \left ( \dfrac{d^{2}x}{dt^{2}} \cos \theta + \dfrac{d^{2}y}{dt^{2}} \sin \theta \right) $\\
+
+$ F_{\theta} = F_{y} \cos \theta - F_{x} \cos \theta 
+= m \left ( \dfrac{d^{2}y}{dt^{2}} \cos \theta - \dfrac{d^{2}x}{dt^{2}} \cos \theta \right) $\\
+
+
+정리하면, \\
+
+$ F_{r} = m \left[ \dfrac{d^{2}r}{dt^{2}} - r \left( {\dfrac{d \theta}{dt}} \right)^{2} \right] $에서, 
+$ -r \left( {\dfrac{d \theta}{dt}} \right)^{2} \rightarrow $ Centrifugal force \\
+
+$ F_{\theta} = m \left[ r \dfrac{d^{2}\theta}{dt^{2}} + 2 \dfrac{dr}{dt} \dfrac{d\theta}{dt}  \right] $에서, 
+$ 2 \dfrac{dr}{dt} \dfrac{d\theta}{dt} \rightarrow $ Coriolis force \\
+
+
+\subsection{좌표계2}
+
+$ (x,~y) 	\rightarrow (x^{\prime},~y^{\prime})$\\
+
+$ \overrightarrow {F} = F_{x} \hat{i}  + F_{y} \hat{j} $에서 
+$ F_{x} = m \dfrac{d^{2}x}{dt^{2}}$, 
+$ F_{y} = m \dfrac{d^{2}y}{dt^{2}}$ 라고 할 수 있다.\\
+
+$ x^{\prime} = x \cos \boldmath $\Omega$ t + y \sin \boldmath $\Omega$ t$, 
+$ y^{\prime} = -x \sin \boldmath $\Omega$ t + y \cos \boldmath $\Omega$ t$\\
+
+$ \overrightarrow {F} = F_{x^{\prime}} \hat{i}  + F_{y^{\prime}} \hat{j} $\\
+
+$ F_{x^{\prime}} = F_{x} \cos \boldmath $\Omega$ t + F_{y} \sin \boldmath $\Omega$ t
+= m \left ( \dfrac{d^{2}x}{dt^{2}} \cos \boldmath $\Omega$ t + \dfrac{d^{2}y}{dt^{2}} \sin \boldmath $\Omega$ t \right) $\\
+
+$ F_{y^{\prime}} = -F_{x} \sin \boldmath $\Omega$ t + F_{y} \cos \boldmath $\Omega$ t
+= m \left ( - \dfrac{d^{2}x}{dt^{2}} \sin \boldmath $\Omega$ t + \dfrac{d^{2}y}{dt^{2}} \cos \boldmath $\Omega$ t \right) $\\
+
+정리하면,
+
+
+$ F_{x^{\prime}} = m \left( \dfrac{d^{2}x}{dt^{2}}F_{x} - 2 \boldmath $\Omega$  \dfrac{dy}{dt} - 2 \boldmath $\Omega$^{2} x^{\prime}  \right) $\\
+
+$ F_{y^{\prime}} = m \left( \dfrac{d^{2}y}{dt^{2}}F_{x} + 2 \boldmath $\Omega$  \dfrac{dx}{dt} - 2 \boldmath $\Omega$^{2} y^{\prime}  \right) $\\
+
+
+
+수정 요함...
+
+$ x^{\prime} = x \cos \boldmath $\Omega$ t + y \sin \boldmath $\Omega$ t$ 을 미분하면,\\
+
+$\dfrac{dx^{\prime}}{dt} = \dfrac{dx}{dt} \cos \boldmath $\Omega$ t - x \sin \boldmath $\Omega$ t +  \dfrac{dy}{dt} \sin \boldmath $\Omega$ t + y \cos \boldmath $\Omega$ t $ \\
+
+$\dfrac{d^{2}x}{dt^{2}} = \cos \theta \dfrac{d^{2}r}{dt^{2}} - \sin \theta \dfrac{dr}{dt} - \sin \theta \dfrac{dr}{dt} \dfrac{d\theta}{dt} -r \cos \theta \dfrac{d^{2}\theta}{dt^{2}}$\\
+\\
+$ y = r \sin \theta $ \\
+
+$\dfrac{dy}{dt} = \sin \theta \dfrac{dr}{dt} + r \cos \theta \dfrac{d\theta}{dt}$ \\
+
+$\dfrac{d^{2}t}{dt^{2}} = \sin \theta \dfrac{d^{2}r}{dt^{2}} + \cos \theta \dfrac{dr}{dt} + \cos \theta \dfrac{dr}{dt} \dfrac{d\theta}{dt} -r \sin \theta \dfrac{d^{2}\theta}{dt^{2}}$\\
+\\
+
+
+
+여기까지 수정 요함...
+
+
+\subsection{각운동량 보존}
+
+$\dfrac{d \theta}{dt} = \boldmath $\Omega$ $\\
+
+$ r\dfrac{d \theta}{dt} = r \boldmath $\Omega$ = u_{\theta} $\\
+
+$\dfrac{dr}{dt} = v_{r}$\\
+
+$\dfrac{d}{dt} r^{2}\Omega = 2 r \dfrac{dr}{dt} \boldmath $\Omega$ + r^{2} \dfrac{d\Omega}{dt} 
+= r \left( r \dfrac{d\Omega}{dt} +2 \dfrac{dr}{dt} \boldmath $\Omega$ \right) $\\
+
+$ r F_{\theta} = m \dfrac{d}{dt} \left(r^{2} \boldmath $\Omega$ \right) $\\
+
+$ r^{2} \boldmath $\Omega$ = const$\\
+
+$ r \left( r \boldmath $\Omega$ \right) = r u_{\theta} = const $ \\
+
+
+$ R_{1} v_{1} = R_{2} v_{2}$\\
+\\
+
+
+\subsection{Pressure gradient force}
+
+$ dV = dx \cdot dy \cdot dz $\\
+
+$x$ 방향 \\
+
+$ F_{x} = P \cdot \Delta y \cdot \Delta z - \left( P + \Delta P \right) \Delta y \cdot \Delta z$\\
+
+$ F_{x} = - \Delta P \cdot \Delta y \cdot \Delta z $\\
+
+$ \dfrac { \Delta y}{\Delta x } = \dfrac {f\left(x + \Delta x \right) - f\left(x \right)}{ \Delta x}$\\
+
+$f^{\prime} \left(x \right) = lim \dfrac { \Delta y}{\Delta x } 
+= \dfrac {f\left(x + \Delta x \right) - f\left(x \right)}{ \Delta x}$\\
+
+$z = f \left( x, y \right) $ \\
+$y = b \rightarrow $ 고정 \\
+
+
+$\dfrac{\partial z}{\partial x} = \displaystyle \lim_{\Delta x \rightarrow 0} \dfrac { \Delta z}{\Delta x } 
+= \dfrac {f\left(x + \Delta x, b \right) - f\left(x, b \right)}{ \Delta x}$\\
+
+$\dfrac{\partial z}{\partial y} = \displaystyle \lim_{\Delta y \rightarrow 0} \dfrac { \Delta z}{\Delta y } 
+= \dfrac {f\left(y + \Delta y, b \right) - f\left(y, b \right)}{ \Delta y}$\\
+
+$ \Delta z = \dfrac{\partial z}{\partial x} \Delta x + \dfrac{\partial z}{\partial y} \Delta y $\\
+
+$ dz = \dfrac{\partial z}{\partial x} dx + \dfrac{\partial z}{\partial y} dy $\\
+
+
+$ \Delta T = \dfrac{\partial T}{\partial t} \Delta t 
++ \dfrac{\partial T}{\partial x} \Delta x 
++ \dfrac{\partial T}{\partial y} \Delta y 
++ \dfrac{\partial T}{\partial z} \Delta z $\\
+
+$ F_{x} = - \Delta P \cdot \Delta y \cdot \Delta z 
+= \dfrac{\partial P}{\partial x} \cdot \Delta x \cdot \Delta y \cdot \Delta z $\\
+
+$ F_{y} = - \Delta P \cdot \Delta z \cdot \Delta x 
+= \dfrac{\partial P}{\partial y} \cdot \Delta x \cdot \Delta y \cdot \Delta z $\\
+
+$ F_{z} = - \Delta P \cdot \Delta x \cdot \Delta y 
+= \dfrac{\partial P}{\partial z} \cdot \Delta x \cdot \Delta y \cdot \Delta z $\\
+
+$ \rho = \dfrac {m}{\Delta x \cdot \Delta y \cdot \Delta z} $ \\
+
+$ \dfrac {F_{x}}{m} = - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} $ \\
+
+$ \dfrac {F}{m} = - \dfrac{1}{\rho} \left( \dfrac{\partial P}{\partial x} i + \dfrac{\partial P}{\partial y} j + \dfrac{\partial P}{\partial z} k \right) 
+= - \dfrac{1}{\rho} \nabla P$ \\
+
+
+\subsection{Gravity}\
+
+\subsection{회전계에서의 운동 방정식}
+
+
+$ \Delta T = \dfrac{\partial T}{\partial t} \Delta t 
++ \dfrac{\partial T}{\partial x} \Delta x 
++ \dfrac{\partial T}{\partial y} \Delta y 
++ \dfrac{\partial T}{\partial z} \Delta z $\\
+
+이 식을 $ \Delta T $로 나누고 0으로 극한을 취하면,\\
+
+$ \displaystyle \lim_{\Delta t \rightarrow 0} \dfrac{\Delta T}{\Delta t} 
+= \dfrac{DT}{Dt} = \dfrac{\partial T}{\partial t} 
++ \dfrac{\partial T}{\partial x} \dfrac{Dx}{Dt}
++ \dfrac{\partial T}{\partial y} \dfrac{Dy}{Dt}
++ \dfrac{\partial T}{\partial z} \dfrac{Dz}{Dt} $\\
+
+$\dfrac{Dx}{Dt} \equiv u$, 
+$\dfrac{Dy}{Dt} \equiv v$, 
+$\dfrac{Dz}{Dt} \equiv w$, 
+ 라고 정의하면\\
+
+$ \dfrac{DT}{Dt} = \dfrac{\partial T}{\partial t} 
++ \left( u \dfrac{\partial T}{\partial x}
++ v \dfrac{\partial T}{\partial y}
++ w \dfrac{\partial T}{\partial z} \right)
+= \dfrac{\partial T}{\partial t} + U \cdot \nabla T $\\
+
+여기에서 $ U = iu + jv + kw $ 3차원 속도 벡터 이다.
+
+회전계에서의 운동방정식을 유도하면,
+
+$ \dfrac{DU}{Dt} = -2 \boldmath $\Omega$ \times U - \dfrac{1}{\rho} \nabla p + g + F_{r} $\\
+
+와 같이 나타낼 수 있다.
+
+
+
+\subsection{직각 카테시안 좌표계에서의 운동 방정식}
+
+$ \dfrac{DU}{Dt} = -2 \boldmath $\Omega$ \times U - \dfrac{1}{\rho} \nabla p + g + F_{r} $ 에서 \\
+
+먼저 전향력 성분을 나누어 보면, 
+
+$ \boldmath $\Omega$_{x} = 0$,
+$ \boldmath $\Omega$_{y} = \boldmath $\Omega$ \cos \phi$, 
+$ \boldmath $\Omega$_{z} = \boldmath $\Omega$ \sin \phi$ 이다.\\
+
+$ -2 \boldmath $\Omega$ \times U  
+= -2 \left| \begin{array}{ccc}
+i & j & k \\
+0 & \boldmath $\Omega$ \cos \phi & \boldmath $\Omega$ \sin \phi \\
+u & v & w \end{array} \right|
+= -2 \left( 2 \boldmath $\Omega$ w \cos \phi -2 \boldmath $\Omega$ v \sin \phi \right) \boldmath{i}
+- 2 \boldmath $\Omega$ u \sin \phi \boldmath{j}
++ 2 \boldmath $\Omega$ u \cos \phi \boldmath{k}$\\
+로 나타낼 수 있다. \\
+
+그리고 기압경도력을 나누어 보면, \\
+$ \nabla p = \boldmath{i} \dfrac{\partial P}{\partial x} 
++ \boldmath{j} \dfrac{\partial P}{\partial y}
++ \boldmath{k} \dfrac{\partial P}{\partial z}$\\
+
+중력은 
+$ \boldmath{g} = -g \boldmath{k} $
+
+
+
+
