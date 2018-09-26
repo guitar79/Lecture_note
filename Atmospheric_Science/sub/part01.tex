@@ -93,9 +93,9 @@ $ F_{y^{\prime}} = m \left( \dfrac{d^{2}y}{dt^{2}}F_{x} + 2 \omega  \dfrac{dx}{d
 
 수정 요함...
 
-$ x^{\prime} = x \cos \mathbf {\Omega} t + y \sin \mathbf {\Omega} t$ 을 미분하면,\\
+$ x^{\prime} = x \cos \Omega t + y \sin \Omega t$ 을 미분하면,\\
 
-$\dfrac{dx^{\prime}}{dt} = \dfrac{dx}{dt} \cos \mathbf {\Omega} t - x \sin \mathbf {\Omega} t +  \dfrac{dy}{dt} \sin \mathbf {\Omega} t + y \cos \mathbf {\Omega} t $ \\
+$\dfrac{dx^{\prime}}{dt} = \dfrac{dx}{dt} \cos \Omega t - x \sin \Omega t +  \dfrac{dy}{dt} \sin \Omega t + y \cos \Omega t $ \\
 
 $\dfrac{d^{2}x}{dt^{2}} = \cos \theta \dfrac{d^{2}r}{dt^{2}} - \sin \theta \dfrac{dr}{dt} - \sin \theta \dfrac{dr}{dt} \dfrac{d\theta}{dt} -r \cos \theta \dfrac{d^{2}\theta}{dt^{2}}$\\
 \\
@@ -113,20 +113,20 @@ $\dfrac{d^{2}t}{dt^{2}} = \sin \theta \dfrac{d^{2}r}{dt^{2}} + \cos \theta \dfra
 
 \subsection{각운동량 보존}
 
-$\dfrac{d \theta}{dt} = \mathbf {\Omega}$ \\
+$\dfrac{d \theta}{dt} = \Omega$ \\
 
-$ r\dfrac{d \theta}{dt} = r \mathbf {\Omega} = u_{\theta} $\\
+$ r\dfrac{d \theta}{dt} = r \Omega = u_{\theta} $\\
 
 $\dfrac{dr}{dt} = v_{r}$\\
 
-$\dfrac{d}{dt} r^{2}\Omega = 2 r \dfrac{dr}{dt} \mathbf {\Omega} + r^{2} \dfrac{d\Omega}{dt} 
-= r \left( r \dfrac{d\Omega}{dt} +2 \dfrac{dr}{dt} \mathbf {\Omega} \right) $\\
+$\dfrac{d}{dt} r^{2}\Omega = 2 r \dfrac{dr}{dt} \Omega + r^{2} \dfrac{d\Omega}{dt} 
+= r \left( r \dfrac{d\Omega}{dt} +2 \dfrac{dr}{dt} \Omega \right) $\\
 
-$ r F_{\theta} = m \dfrac{d}{dt} \left(r^{2} \mathbf {\Omega} \right) $\\
+$ r F_{\theta} = m \dfrac{d}{dt} \left(r^{2} \Omega \right) $\\
 
-$ r^{2} \mathbf {\Omega} = const$\\
+$ r^{2} \Omega = const$\\
 
-$ r \left( r \mathbf {\Omega} \right) = r u_{\theta} = const $ \\
+$ r \left( r \Omega \right) = r u_{\theta} = const $ \\
 
 
 $ R_{1} V_{1} = R_{2} V_{2}$\\
@@ -218,7 +218,7 @@ $ \dfrac{DT}{Dt} = \dfrac{\partial T}{\partial t}
 
 회전계에서의 운동방정식을 유도하면,
 
-$ \dfrac{DU}{Dt} = -2 \mathbf {\Omega} \times U - \dfrac{1}{\rho} \nabla p + g + F_{r} $\\
+$ \dfrac{DU}{Dt} = -2 \Omega \times U - \dfrac{1}{\rho} \nabla p + g + F_{r} $\\
 
 와 같이 나타낼 수 있다.
 
@@ -226,23 +226,23 @@ $ \dfrac{DU}{Dt} = -2 \mathbf {\Omega} \times U - \dfrac{1}{\rho} \nabla p + g +
 
 \subsection{직각 카테시안 좌표계에서의 운동 방정식}
 
-$ \dfrac{DU}{Dt} = -2 \mathbf {\Omega} \times U - \dfrac{1}{\rho} \nabla p + g + F_{r} $ 에서 \\
+$ \dfrac{DU}{Dt} = -2 \Omega \times U - \dfrac{1}{\rho} \nabla p + g + F_{r} $ 에서 \\
 
 먼저 전향력 성분을 나누어 보면, 
 
-$ \mathbf {\Omega}_{x} = 0$,
-$ \mathbf {\Omega}_{y} = \mathbf {\Omega} \cos \phi$, 
-$ \mathbf {\Omega}_{z} = \mathbf {\Omega} \sin \phi$ 이다.\\
+$ \Omega_{x} = 0$,
+$ \Omega_{y} = \Omega \cos \phi$, 
+$ \Omega_{z} = \Omega \sin \phi$ 이다.\\
 
-$ -2 \mathbf {\Omega} \times U  
+$ -2 \Omega \times U  
 = -2 \left| \begin{array}{ccc}
 i & j & k \\
-0 & \mathbf {\Omega} \cos \phi & \mathbf {\Omega} \sin \phi \\
+0 & \Omega \cos \phi & \Omega \sin \phi \\
 u & v & w \end{array} \right| \\
 
-= -2 \left( 2 \mathbf {\Omega} w \cos \phi -2 \mathbf {\Omega} v \sin \phi \right) \mathbf{i}
-- 2 \mathbf {\Omega} u \sin \phi \mathbf{j}
-+ 2 \mathbf {\Omega} u \cos \phi \mathbf{k}$\\
+= -2 \left( 2 \Omega w \cos \phi -2 \Omega v \sin \phi \right) \mathbf{i}
+- 2 \Omega u \sin \phi \mathbf{j}
++ 2 \Omega u \cos \phi \mathbf{k}$\\
 로 나타낼 수 있다. \\
 
 그리고 기압경도력을 나누어 보면, \\
@@ -263,32 +263,32 @@ $ F_{r} = \mathbf{i} F_{x}
 
 $ \dfrac{Du}{Dt}
 = - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} 
-+ 2 \mathbf {\Omega} v \sin \phi - 2 \mathbf {\Omega} w \cos \phi 
++ 2 \Omega v \sin \phi - 2 \Omega w \cos \phi 
 + F_{x} $\\
 
 $ \dfrac{Dv}{Dt}
 = - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} 
-- 2 \mathbf {\Omega} u \sin \phi
+- 2 \Omega u \sin \phi
 + F_{y} $\\
 
 $ \dfrac{Dw}{Dt}
 = - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} 
-+ 2 \mathbf {\Omega} u \cos \phi 
++ 2 \Omega u \cos \phi 
 + F_{z}$\\
 
-$x$ 성분에서 연직 전향력은 수평 전향력에 비해 매우 작은 값이므로, $- 2 \mathbf {\Omega} w \cos \phi $ 항을 무시할 수 있다. \\
-$z$ 성분의 전향력 $ 2 \mathbf {\Omega} u \cos \phi $ 은 중력 $g$에 비해 매우 작으므로 무시할 수 있다. \\
-더구나 $ \dfrac{Dw}{Dt}$의 크기는 더 작기 때문에 $ 2 \mathbf {\Omega} \sin \phi $를 $f$로 두면 다음과 같이 간단히 할 수 있다.
+$x$ 성분에서 연직 전향력은 수평 전향력에 비해 매우 작은 값이므로, $- 2 \Omega w \cos \phi $ 항을 무시할 수 있다. \\
+$z$ 성분의 전향력 $ 2 \Omega u \cos \phi $ 은 중력 $g$에 비해 매우 작으므로 무시할 수 있다. \\
+더구나 $ \dfrac{Dw}{Dt}$의 크기는 더 작기 때문에 $ 2 \Omega \sin \phi $를 $f$로 두면 다음과 같이 간단히 할 수 있다.
 
 $ \dfrac{Du}{Dt}
 = - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} 
-+ 2 \mathbf {\Omega} v \sin \phi 
++ 2 \Omega v \sin \phi 
 = - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} 
 + f v $\\
 
 $ \dfrac{Dv}{Dt}
 = - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} 
-- 2 \mathbf {\Omega} u \sin \phi
+- 2 \Omega u \sin \phi
 = - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x}
 - f u $\\
 
@@ -345,7 +345,7 @@ $368.11 + 5 = 373.11 \left( \rm m ~ s^{-1} \right)$ 이다.\\
 3.  \\
 
 전향력은 \\
-$ 2 m v \mathbf {\Omega} \sin \phi
+$ 2 m v \Omega \sin \phi
 = \  2 \cdot 65 \cdot 1000000 \div 3600 \cdot 7.272 \cdot 0.5
 = 131300 \left( \rm kg~m ~ s^{-2} = N \right) $이다.\\
 
